@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+      height:100vh;
+      background-color: #009688;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      font-family: 'Roboto', sans-serif;
+}
+/* Default Settings */
+h1{
+      color:white;
+      text-align: center;
+      text-transform: uppercase;
+}
+
+ /* MODEL BUTTON */
+.todoBtn{
+      text-transform: uppercase;
+      font-size:1em;
+      padding: 20px 0px;
+      background-color: white;
+      border:2px solid white;
+      transition: background-color 1s, color 1s;
+}.todoBtn:hover{
+      color:white;
+      border-color: white;
+      background-color:rgba(0, 0, 0, 0.07);
+}

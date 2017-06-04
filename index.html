@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="keywords" content="">
+            <meta name="description" content="Development Testing Sites">
+            <meta name="author" content="Andy Wang">
+
+            <title>Design Site</title>
+
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Inline">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" >
+
+            <link rel="stylesheet" href="css/font-awesome.min.css"/>
+            <link rel="stylesheet" href="css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="css/main.css"/>
+            <link rel="stylesheet" href="css/nav.css"/>
+
+            <link rel="stylesheet" href="css/index/index.css"/>
+            <link rel="stylesheet" href="css/index/colorpicker.css"/>
+      </head>
+      <body>
+            <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown">
+                  <div class="container">
+                        <div class="navbar-header">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                     <i class="fa fa-angle-double-down navbari"></i>
+                              </button>
+                              <a class="navbar-brand" href="index.html">
+                                    <img src="img/Logo1.png" class="navLogo" id="Logo">
+                                    &nbsp;<p class="logoP">DESIGN STUDIO</p>
+                              </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                              <ul class="nav navbar-nav navbar-right TAS">
+                                     <li><a href="UNHRC.html">UNHRC</a></li>
+                                     <li><a href="http://pacificmun.org">PACIFICMUN VANCOUVER</a>
+                              </ul>
+                        </div>
+                  </div>
+            </nav>
+
+             <!-- Modal Popup onClick -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title TAS" id="myModalLabel">Design Studio : 2017</h4>
+                              </div>
+                              <div class="modal-body">
+                                    <p>
+                                          The Design Studio showcases the newest craziest technologies being developed <br />
+                                          by Andy Wang at Pacific Model United Nations Vancouver <br /> <br />
+                                    </p>
+                              </div>
+                              <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="todoList container TNS">
+                  <!-- MODEL POPUPS-->
+                  <div class="col-sm-3">
+                        <h1>Andy's ToDo List</h1>
+
+                        <button type="button" class="todoBtn fullwidth" data-toggle="modal" data-target="#myModal">
+                              Create Design Studio Page
+                        </button>
+                  </div>
+                  <!-- Spare 2-->
+                  <div class="col-sm-3"></div>
+                  <!-- Spare 3-->
+                  <div class="col-sm-3"></div>
+                  <!-- Andy's Color Picker WOW -->
+                  <div class="col-sm-3">
+                        <h1>Colors</h1>
+                        <div class="ColorTest fullwidth" id="CT1">
+                              Test1
+                        </div>
+                  </div>
+            </div>
+
+            <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="js/navAnimations.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+      </body>
+</html>
