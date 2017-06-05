@@ -25,18 +25,13 @@ h3{
       margin:0;
       padding: 15px 0px;
 }
-
-
- /* MODEL BUTTON */
-.todoBtn{
+h4{
+      color:#009688;
       text-transform: uppercase;
-      font-size:1em;
-      padding: 20px 0px;
-      background-color: white;
-      border:2px solid white;
-      transition: background-color 1s, color 1s;
-}.todoBtn:hover{
-      color:white;
-      border-color: white;
-      background-color:rgba(0, 0, 0, 0.07);
+      margin:0;
+}
+
+/* Three Boxes CSS */
+.TBdiv{
+      background-color: #FFB74D;
 }
