@@ -1,1 +1,15 @@
 /*Col 1 of Design Site*/
+.modelBtn{
+      background-color: #009688;
+      color:white;
+}.modelBtn:hover{
+      color: white;
+}
+.modal-header{
+      background-color: #009688;
+      color:white;
+}
+.modelClose{
+      color:white;
+      opacity: 1;
+}
