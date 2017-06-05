@@ -24,6 +24,10 @@
       color:white;
       background-color:#607D8B;
 }
+.panel-hMe6{
+      color:white;
+      background-color:#3F51B5;
+}
 .panel-tMe{
       padding: 25px 25px;
 }
@@ -89,3 +93,14 @@
 .pb5-8{background-color: #455A64;}
 .pb5-9{background-color: #37474F;}
 .pb5-10{background-color: #263238;}
+
+.pb6-1{background-color: #E8EAF6; color:black !important;}
+.pb6-2{background-color: #C5CAE9; color:black !important;}
+.pb6-3{background-color: #9FA8DA; color:black !important;}
+.pb6-4{background-color: #7986CB;}
+.pb6-5{background-color: #5C6BC0;}
+.pb6-6{background-color: #3F51B5;}
+.pb6-7{background-color: #3949AB;}
+.pb6-8{background-color: #303F9F;}
+.pb6-9{background-color: #283593;}
+.pb6-10{background-color: #1A237E;}
