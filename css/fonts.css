@@ -1,0 +1,61 @@
+@font-face{
+	font-family: ruthie;
+	src: url("../fonts/Ruthie.otf");
+}
+/* Google Fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+.OpenSans {
+	font-family: 'Open Sans', sans-serif;
+}
+.Abel{
+	font-family: 'Abel', sans-serif;
+}
+.Playfair{
+	font-family: 'Playfair Display', serif;
+}
+.Cinzel{
+	font-family: 'Cinzel', serif;
+}
+.Alegreya{
+	font-family: 'Alegreya SC', serif;
+}
+.Gloria{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.Amatic{
+	font-family: 'Amatic SC', cursive;
+}
+.Roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Design Sites Fonts */
+.TBdiv{
+	padding-left:15px;
+	padding-top:25px;
+	padding-bottom: 15px;
+	background-color: white;
+}
+.fontP{
+	font-size: 2em;
+}
+.fontT{
+	font-size:1.5em;
+}
+.fontfa{
+	color:#3F51B5;
+	transition: transform 1s;
+}
+.fontfa:hover{
+	transform: rotate(540deg);
+}

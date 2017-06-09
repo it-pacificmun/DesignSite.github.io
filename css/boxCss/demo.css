@@ -8,10 +8,6 @@
 		url('../../fonts/codropsicons/codropsicons.ttf') format('truetype'),
 		url('../../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
-@font-face{
-	font-family: ruthie;
-	src: url("../../fonts/Ruthie.otf");
-}
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
