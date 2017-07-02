@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title></title>
+
+      <link href="https://fonts.googleapis.com/css?family=Abel|Alegreya+SC|Amatic+SC|Cinzel|Gloria+Hallelujah|Open+Sans|Playfair+Display|Roboto" rel="stylesheet">
+
+      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/component.css" />
+      <link rel="stylesheet" href="css/all/main.css"/>
+      <link rel="stylesheet" href="css/all/fonts.css"/>
+      <link rel="stylesheet" href="css/all/nav.css"/>
+      <link rel="stylesheet" href="css/all/nav1.css"/>
+
+      <link rel="stylesheet" href="css/page/conf.css"/>
+</head>
+<body>
+      <div class="main"></div>
+
+      <ul id="gn-menu" class="gn-menu-main">
+            <li class="gn-trigger">
+                  <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                  <nav class="gn-menu-wrapper">
+                        <div class="gn-scroller">
+                              <ul class="gn-menu">
+                                    <li><a href="aboutus.html" class="gn-icon gn-icon-about">About Us</a></li>
+                                    <li>
+                                          <a href="conference.html"  class="gn-icon gn-icon-conf">Conference</a>
+                                          <ul class="gn-submenu">
+                                                <li><a href="venue.html"  class="gn-icon gn-icon-venue TI">Venue</a></li>
+                                                <li><a href="schedule.html"  class="gn-icon gn-icon-schedule TI">Schedule</a></li>
+                                                <li><a href="policy.html"  class="gn-icon gn-icon-policy TI">Policy</a></li>
+                                          </ul>
+                                    </li>
+                                    <li><a href="committees.html"  class="gn-icon gn-icon-com">Committees</a></li>
+                                    <li><a href="registration.html"  class="gn-icon gn-icon-reg">Registration</a></li>
+                                    <li><a href="adhoc.html"  class="gn-icon gn-icon-adhoc">ADHOC</a></li>
+                              </ul>
+                        </div><!-- /gn-scroller -->
+                  </nav>
+            </li>
+            <li><a href="index.html">Pacificmun</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+      </ul>
+      <div class="footer">
+            <div class="container">
+                  <div class="footbot row">
+                        <div class="col-sm-6">
+                              <a class="footBtn" data-toggle="modal" data-target="#footModal">Questions?</a>
+                        </div>
+                        <div class="col-sm-6 TAR">Pacific Model United Nations 2018</div>
+                  </div>
+            </div>
+      </div>
+      <div class="modal fade" id="footModal" tabindex="-1" role="dialog" aria-labelledby="footModalLabel">
+            <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                              <button type="button" class="close modelClose" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                              </button>
+                              <h4 class="modal-title TAS CAP" id="footModalLabel">We'd Love To Help</h4>
+                        </div>
+                        <div class="modal-body">
+                              <h3 class="TAS CAP">sg@pacificmun.org</h3>
+                              <p>
+                                    Ask us any questions or concerns you may have, we would be happy to answer them for you.
+                              </p>
+                        </div>
+                        <div class="modal-footer">
+                              <button type="button" class="btn modelBtn CAP" data-dismiss="modal">Close</button>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left">
+            <i class="fa fa-anchor"></i></a>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/navAnimations.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/classie.js"></script>
+	<script src="js/gnmenu.js"></script>
+	<script>
+		new gnMenu( document.getElementById( 'gn-menu' ) );
+	</script>
+      <script>
+            function setStyleSheet(url){
+                  var stylesheet = document.getElementById("stylesheet");
+                  stylesheet.setAttribute('href', url);
+            }
+      </script>
+</body>
+</html>

@@ -1,386 +1,101 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-      <head>
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta name="keywords" content="">
-            <meta name="description" content="Development Testing Sites">
-            <meta name="author" content="Andy Wang">
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="Andy Wang">
 
-            <title>Design Site</title>
+      <title>Pacific Model United Nations</title>
 
-            <link href="https://fonts.googleapis.com/css?family=Abel|Alegreya+SC|Amatic+SC|Cinzel|Gloria+Hallelujah|Open+Sans|Playfair+Display|Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abel|Alegreya+SC|Amatic+SC|Cinzel|Gloria+Hallelujah|Open+Sans|Playfair+Display|Roboto" rel="stylesheet">
 
-            <link rel="stylesheet" href="css/font-awesome.min.css"/>
-            <link rel="stylesheet" href="css/bootstrap.min.css"/>
-            <link rel="stylesheet" href="css/main.css"/>
-            <link rel="stylesheet" href="css/nav.css"/>
-            <link rel="stylesheet" href="css/fonts.css"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/all/main.css"/>
+      <link rel="stylesheet" href="css/all/fonts.css"/>
+      <link rel="stylesheet" href="css/all/nav.css"/>
+      <link rel="stylesheet" href="css/all/navcolor.css" id="stylesheet"/>
 
-            <link rel="stylesheet" href="css/boxCss/normalize.css" />
-		<link rel="stylesheet" href="css/boxCss/demo.css" />
-		<link rel="stylesheet" href="css/boxCss/component.css" />
+      <link rel="stylesheet" href="css/index/index.css"/>
+</head>
+<body>
+      <div class="main"></div>
 
-            <link rel="stylesheet" href="css/index/index.css"/>
-            <link rel="stylesheet" href="css/index/colorpicker.css"/>
-            <link rel="stylesheet" href="css/index/modelPopups.css"/>
-      </head>
-      <body>
-
-            <!-- FONTS -->
-            <div class="panel panel-default panel-Me TNS">
-               <div class="panel-heading panel-hMefont" role="tab" id="headingfont">
-                     <h4 class="panel-title panel-tMe container">
-                           <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefont" aria-expanded="false" aria-controls="collapsefont">
-                                 Fonts
-                           </a>
-                     </h4>
-               </div>
-               <div id="collapsefont" class="panel-collapse collapse row TBdiv" role="tabpanel" aria-labelledby="headingfont">
-                        <div class="col-sm-3">
-                              <p class="fontT">Roboto : Sans-Serif <a href="#"><i class="fa fa-adjust fontfa"></i></a></p>
-                              <p class="fontP Roboto">Sometimes there are not enough, just not enough</p>
-                        </div>
-                        <div class="col-sm-3">
-                              <p class="fontT">Cinzel : Serif <a href="#"><i class="fa fa-adjust fontfa"></i></a></p>
-                              <p class="fontP Cinzel">Sometimes there are not enough, just not enough</p>
-                        </div>
-                        <div class="col-sm-3">
-                              <p class="fontT">Alegreya SC : Serif <a href="#"><i class="fa fa-adjust fontfa"></i></a></p>
-                              <p class="fontP Alegreya">Sometimes there are not enough, just not enough</p>
-                        </div>
-                        <div class="col-sm-3">
-                              <p class="fontT">Abel : Sans-Serif <a href="#"><i class="fa fa-adjust fontfa"></i></a></p>
-                              <p class="fontP Abel">Sometimes there are not enough, just not enough</p>
-                        </div>
-               </div>
-         </div>
-
-            <!-- Past Secretariat-->
-            <div class="panel panel-default panel-Me">
-                  <div class="panel-heading panel-hMePS" role="tab" id="headingPS">
-                        <h4 class="panel-title panel-tMe container">
-                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsePS" aria-expanded="false" aria-controls="collapsePS">
-                                    Past Secretariat
-                              </a>
-                        </h4>
-                  </div>
-                  <div id="collapsePS" class="panel-collapse collapse container" role="tabpanel" aria-labelledby="headingPS">
-                        <section class="demo-2">
-                              <h1>Past Secretariat</h1>
-                              <div class="grid">
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>B.B</h3>
-                                          <span>2017</span>
-                                          <span>Prince of Wales</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>C.Y</h3>
-                                          <span>2017</span>
-                                          <span>Vancouver Collage</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>T.R</h3>
-                                          <span>2017</span>
-                                          <span>Pacific Academy</span>
-                                    </div>
-                              </div><!-- /grid -->
-                              <div class="grid">
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>A.L</h3>
-                                          <span>2017</span>
-                                          <span>Fraser Heights</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>E.V</h3>
-                                          <span>2017</span>
-                                          <span>Little Flower Academy</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>J.K</h3>
-                                          <span>2017</span>
-                                          <span>Pacific Academy</span>
-                                    </div>
-                              </div><!-- /grid -->
-                              <div class="grid">
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>S.Y</h3>
-                                          <span>2017</span>
-                                          <span>Fraser Heights</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>A.M</h3>
-                                          <span>2017</span>
-                                          <span>Vancouver Collage</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h4>C.N.B</h4>
-                                          <span>2017</span>
-                                          <span>Johnston Heights</span>
-                                    </div>
-                              </div><!-- /grid -->
-                              <div class="grid">
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h4>M.X.G</h4>
-                                          <span>2017</span>
-                                          <span>Sir Winston Churchill</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>A.W</h3>
-                                          <span>2017</span>
-                                          <span>Fraser Heights</span>
-                                    </div>
-                                    <div class="box">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
-                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
-                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
-                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
-                                          </svg>
-                                          <h3>S.J</h3>
-                                          <span>2017</span>
-                                          <span>Port Moody</span>
-                                    </div>
-                              </div><!-- /grid -->
-                        </section>
-                  </div>
-            </div>
-
-            <!-- Testing 3 Col-->
-            <div class="container ">
-                  <!-- MODEL POPUPS-->
-                  <div class="col-sm-3">
-                        <h1>Buttons!</h1>
-
-                        <button type="button" class="todoBtn fullwidth" data-toggle="modal" data-target="#myModal">
-                              What is this?
-                        </button>
-                  </div>
-                  <!-- Video Test-->
-                  <div class="col-sm-6">
-                        <h1>Video Test</h1>
-                        <video class="fullwidth"  loop controls>
-                              <source src="img/destiny2.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
-                        </video>
-                  </div>
-                  <!-- Andy's Color Picker WOW -->
-                  <div class="col-sm-3">
-                        <h1>Colors</h1>
-                        <div class="panel-group TAS" id="accordion" role="tablist" aria-multiselectable="true">
-                              <div class="panel panel-default panel-Me">
-                                    <div class="panel-heading panel-hMe1" role="tab" id="headingOne">
-                                          <h4 class="panel-title panel-tMe">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                      Purple #9C27B0
-                                                </a>
-                                          </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                          <div class="panel-body panel-bMe">
-                                                <div class="pb1-1">#F3E5F5</div><div class="pb1-2">#E1BEE7</div><div class="pb1-3">#CE93D8</div><div class="pb1-4">#BA68C8</div>
-                                                <div class="pb1-5">#AB47BC</div><div class="pb1-6">#9C27B0</div><div class="pb1-7">#8E24AA</div><div class="pb1-8">#7B1FA2</div>
-                                                <div class="pb1-9">#6A1B9A</div><div class="pb1-10">#4A148C</div>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div class="panel panel-default panel-Me">
-                                    <div class="panel-heading panel-hMe2" role="tab" id="headingTwo">
-                                          <h4 class="panel-title panel-tMe">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                      Teal #009688
-                                                </a>
-                                          </h4>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                          <div class="panel-body panel-bMe ">
-                                                <div class="pb2-1">#E0F2F1</div><div class="pb2-2">#B2DFDB</div><div class="pb2-3">#80CBC4</div><div class="pb2-4">#4DB6AC</div>
-                                                <div class="pb2-5">#26A69A</div><div class="pb2-6">#009688</div><div class="pb2-7">#00897B</div><div class="pb2-8">#00796B</div>
-                                                <div class="pb2-9">#00695C</div><div class="pb2-10">#004D40</div>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div class="panel panel-default panel-Me">
-                                    <div class="panel-heading panel-hMe3" role="tab" id="headingThree">
-                                          <h4 class="panel-title panel-tMe">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                      Orange #FF9800
-                                                </a>
-                                          </h4>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                          <div class="panel-body panel-bMe ">
-                                                <div class="pb3-1">#FFF3E0</div><div class="pb3-2">#FFE0B2</div><div class="pb3-3">#FFCC80</div><div class="pb3-4">#FFB74D</div>
-                                                <div class="pb3-5">#FFA726</div><div class="pb3-6">#FF9800</div><div class="pb3-7">#FB8C00</div><div class="pb3-8">#F57C00</div>
-                                                <div class="pb3-9">#EF6C00</div><div class="pb3-10">#E65100</div>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div class="panel panel-default panel-Me">
-                                    <div class="panel-heading panel-hMe4" role="tab" id="headingFour">
-                                          <h4 class="panel-title panel-tMe">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                      Pink #E91E63
-                                                </a>
-                                          </h4>
-                                    </div>
-                                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                          <div class="panel-body panel-bMe ">
-                                                <div class="pb4-1">#FCE4EC</div><div class="pb4-2">#F8BBD0</div><div class="pb4-3">#F48FB1</div><div class="pb4-4">#F06292</div>
-                                                <div class="pb4-5">#EC407A</div><div class="pb4-6">#E91E63</div><div class="pb4-7">#D81B60</div><div class="pb4-8">#C2185B</div>
-                                                <div class="pb4-9">#AD1457</div><div class="pb4-10">#880E4F</div>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div class="panel panel-default panel-Me">
-                                    <div class="panel-heading panel-hMe5" role="tab" id="headingFive">
-                                          <h4 class="panel-title panel-tMe">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                      Blue Grey #607D8B
-                                                </a>
-                                          </h4>
-                                    </div>
-                                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                          <div class="panel-body panel-bMe ">
-                                                <div class="pb5-1">#ECEFF1</div><div class="pb5-2">#CFD8DC</div><div class="pb5-3">#B0BEC5</div><div class="pb5-4">#90A4AE</div>
-                                                <div class="pb5-5">#78909C</div><div class="pb5-6">#607D8B</div><div class="pb5-7">#546E7A</div><div class="pb5-8">#455A64</div>
-                                                <div class="pb5-9">#37474F</div><div class="pb5-10">#263238</div>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div class="panel panel-default panel-Me">
-                                    <div class="panel-heading panel-hMe6" role="tab" id="headingSix">
-                                          <h4 class="panel-title panel-tMe">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                      Indigo #3F51B5
-                                                </a>
-                                          </h4>
-                                    </div>
-                                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                                          <div class="panel-body panel-bMe ">
-                                                <div class="pb6-1">#E8EAF6</div><div class="pb6-2">#C5CAE9</div><div class="pb6-3">#9FA8DA</div><div class="pb6-4">#7986CB</div>
-                                                <div class="pb6-5">#5C6BC0</div><div class="pb6-6">#3F51B5</div><div class="pb6-7">#3949AB</div><div class="pb6-8">#303F9F</div>
-                                                <div class="pb6-9">#283593</div><div class="pb6-10">#1A237E</div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-
-            <!-- Modal Popup onClick -->
-           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                 <div class="modal-dialog" role="document">
-                       <div class="modal-content">
-                             <div class="modal-header">
-                                   <button type="button" class="close modelClose" data-dismiss="modal" aria-label="Close">
-                                         <span aria-hidden="true">&times;</span>
-                                   </button>
-                                   <h4 class="modal-title TAS CAP" id="myModalLabel">Design Studio : 2017</h4>
-                             </div>
-                             <div class="modal-body">
-                                   <h3 class="CAP">Dare to Speak</h3>
-                                   <p>
-                                         The Design Studio showcases the newest craziest technologies being developed
-                                         by Andy Wang at Pacific Model United Nations Vancouver
-                                   </p>
-                             </div>
-                             <div class="modal-footer">
-                                   <button type="button" class="btn modelBtn CAP" data-dismiss="modal">Close</button>
-                             </div>
-                       </div>
-                 </div>
-           </div>
-            <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left">
-                  <i class="fa fa-anchor"></i></a>
-            <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown">
-                  <div class="container">
-                        <div class="navbar-header">
-                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                     <i class="fa fa-angle-double-down navbari"></i>
-                              </button>
-                              <a class="navbar-brand" href="index.html">
-                                    <img src="img/Logo1.png" class="navLogo" id="Logo">
-                                    &nbsp;<p class="logoP">DESIGN STUDIO</p>
-                              </a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                              <ul class="nav navbar-nav navbar-right TAS">
-                                    <!-- <li><a href="UNHRC.html">UNHRC</a></li> -->
-                                    <li><a href="http://pacificmun.org">PACIFICMUN VANCOUVER</a>
+      <ul id="gn-menu" class="gn-menu-main">
+            <li class="gn-trigger">
+                  <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                  <nav class="gn-menu-wrapper">
+                        <div class="gn-scroller">
+                              <ul class="gn-menu">
+                                    <li><a href="aboutus.html" class="gn-icon gn-icon-about">About Us</a></li>
+                                    <li>
+                                          <a href="conference.html"  class="gn-icon gn-icon-conf">Conference</a>
+                                          <ul class="gn-submenu">
+                                                <li><a href="venue.html"  class="gn-icon gn-icon-venue TI">Venue</a></li>
+                                                <li><a href="schedule"  class="gn-icon gn-icon-schedule TI">Schedule</a></li>
+                                                <li><a href="policy"  class="gn-icon gn-icon-policy TI">Policy</a></li>
+                                          </ul>
+                                    </li>
+                                    <li><a href="committees.html"  class="gn-icon gn-icon-com">Committees</a></li>
+                                    <li><a href="registration.html"  class="gn-icon gn-icon-reg">Registration</a></li>
+                                    <li><a href="adhoc.html"  class="gn-icon gn-icon-adhoc">ADHOC</a></li>
                               </ul>
+                        </div><!-- /gn-scroller -->
+                  </nav>
+            </li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="index.html"><i class="fa fa-anchor"></i></a></li>
+      </ul>
+      <div class="footer">
+            <div class="container">
+                  <div class="footbot row">
+                        <div class="col-sm-6 SMTAS">
+                              <a class="footBtn" data-toggle="modal" data-target="#footModal">Questions?</a>
+                        </div>
+                        <div class="col-sm-6 TAR SMND">Pacific Model United Nations 2018</div>
+                  </div>
+            </div>
+      </div>
+      <div class="modal fade" id="footModal" tabindex="-1" role="dialog" aria-labelledby="footModalLabel">
+            <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                              <button type="button" class="close modelClose" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                              </button>
+                              <h4 class="modal-title TAS CAP" id="footModalLabel">We're Here To Help</h4>
+                        </div>
+                        <div class="modal-body TAS">
+                              <h2 class="CAP">Email delegateaffairs@pacificmun.org</h2> </br>
+                              <p>Ask us any questions or concerns you may have, we would be happy to answer them for you. Want to stay updated on conference news?</p>
+                              <h3>Like and Follow our Facebook Page <a class="model-fb" href="https://www.facebook.com/PacificModelUN/"><i class="fa fa-facebook-official LBlue"></i></a> </h3>
+                        </div>
+                        <div class="modal-footer">
+                              <button type="button" class="btn modelBtn CAP" data-dismiss="modal">Close</button>
                         </div>
                   </div>
-            </nav>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script src="js/navAnimations.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-      </body>
+            </div>
+      </div>
+      <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left">
+            <i class="fa fa-anchor"></i></a>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/navAnimations.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/classie.js"></script>
+	<script src="js/gnmenu.js"></script>
+	<script>
+		new gnMenu( document.getElementById( 'gn-menu' ) );
+	</script>
+      <script>
+            function setStyleSheet(url){
+                  var stylesheet = document.getElementById("stylesheet");
+                  stylesheet.setAttribute('href', url);
+            }
+      </script>
+</body>
 </html>

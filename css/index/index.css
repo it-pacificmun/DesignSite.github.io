@@ -1,40 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-}
-
-body{
-      height:100vh;
+.main{
       background-color: #009688;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      background-attachment: fixed;
-      font-family: 'Roboto', sans-serif;
-}
-/* Default Settings */
-h1{
-      color:white;
-      text-align: center;
-      text-transform: uppercase;
-      padding: 25px 0px;
-}
-h3{
-      color:#009688;
-      text-transform: uppercase;
-      margin:0;
-      padding: 15px 0px;
-}
-h4{
-      color:#009688;
-      text-transform: uppercase;
-      margin:0;
-}
-.panel-hMefont{
-      color:white;
-      background-color:#FFB74D;
-}
-.panel-hMePS{
-      color:white;
-      background-color:#AB47BC;
+      height:100vh;
 }
