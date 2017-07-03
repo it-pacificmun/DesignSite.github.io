@@ -18,15 +18,47 @@
       color:#2980b9;
       background-color: white;
 }
+
 .content1{
-      height:100vh;
-      background-color:#009688;
+      color:white;
+      padding: 100px 0px;
+      background-color:#455A64;
 }
+
 .content2{
-      height:100vh;
+      height:50vh;
       background-color:#FF9800;
+
 }
+.content2-colimg{
+      padding:0;
+}
+.content2-img{
+      height:50vh;
+}
+
 .content3{
-      height:100vh;
+      height:50vh;
+      background-color:#344463;
+}
+.content3-colimg{
+      padding:0;
+}
+.content3-img{
+      height:50vh;
+      float:right;
+}
+
+.content-con{height:50vh;}
+
+
+
+.content4{
+      height:50vh;
+      background-color:#235563;
+}
+
+.content5{
+      height:50vh;
       background-color:#E91E63;
 }

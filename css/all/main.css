@@ -10,6 +10,8 @@ p{
 }
 /* Images */
 .fullwidth{width: 100%;}
+.width80{width:80%;}
+.fullheight{height:100%;}
 
 /* Alignment */
 .TAS{text-align: center;}
