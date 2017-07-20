@@ -10,55 +10,37 @@
 .hero-content{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .hero-h1{font-size:5em;}
 .hero-h1logo{height:1em;}
-.hero-a{padding: 20px 45px; font-size: 1.3em; float:right; transition: color 1s, background-color 1s;
-      border: 3px solid white;
-      color:white;
+.hero-a{
+      padding: 20px 45px; font-size: 1.4em; float:right; transition: all 1s; transition-delay: 6s;
+      border-bottom: 3px solid white; color:white;
 }
 .hero-a:hover{
-      color:#2980b9;
-      background-color: white;
-}
-
-.content1{
       color:white;
-      padding: 100px 0px;
-      background-color:#455A64;
+      border-color: #2980b9;
+      background-color: #2980b9;
+      animation-name: color;
+      animation-duration: 6s;
+}
+@keyframes color {
+      0% {background-color: transparent;}
+      20% {background-color: #BA68C8;}
+      40% {background-color: #EC407A;}
+      60% {background-color: #FF9800;}
+      80% {background-color: #009688;}
+      100% {background-color: #2980b9;}
 }
 
-.content2{
-      height:50vh;
-      background-color:#FF9800;
+.content1{margin:0; padding:200px;}
+.C1h1{font-size:4em;}
+.C1h3{color: #2980b9;}
 
-}
-.content2-colimg{
-      padding:0;
-}
-.content2-img{
-      height:50vh;
-}
+.content2{margin:0; padding:200px 400px; color:white; background-color: #2980b9;}
+.C2p{font-size: 1.3em; text-indent: 50px;}
 
-.content3{
-      height:50vh;
-      background-color:#344463;
-}
-.content3-colimg{
-      padding:0;
-}
-.content3-img{
-      height:50vh;
-      float:right;
-}
+.content3{margin:0; color:white; padding:150px 0px; background-color: #455A64;}
+.C3R1{padding-bottom: 100px;}
+.C3S{font-size: 1.3em; font-weight: bold; color: #2980b9;}
+.C3P{font-size: 1.7em;}
+.C3P1{font-size: 3em;}
 
-.content-con{height:50vh;}
-
-
-
-.content4{
-      height:50vh;
-      background-color:#235563;
-}
-
-.content5{
-      height:50vh;
-      background-color:#E91E63;
-}
+.content4{margin:0; color:white; padding:150px 0px; background-color: #455A64;}

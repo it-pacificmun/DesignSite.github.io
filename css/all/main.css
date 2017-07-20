@@ -1,16 +1,12 @@
 /* Universal Css Sheet */
-*{
-      -webkit-border-radius: 0 !important;
-      -moz-border-radius: 0 !important;
-      border-radius: 0 !important;
+*{-webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important;
       font-family: Stellar;
 }
-p{
-      font-size:16px;
-}
+p{font-size:16px;}
 /* Images */
 .fullwidth{width: 100%;}
 .width80{width:80%;}
+.width50{width:50%;}
 .fullheight{height:100%;}
 
 /* Alignment */
@@ -25,11 +21,7 @@ p{
 .TNS{padding-top:80px;}
 /* Text */
 .CAP{text-transform: uppercase;}
-.TI{
-      text-indent: 25px;
-}
+.TI{text-indent: 25px;}
 
 /*Easy Color*/
-.LBlue{
-      color: #2980b9;
-}
+.LBlue{color: #2980b9;}

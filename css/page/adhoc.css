@@ -1,4 +1,10 @@
 .main{
-      background-color: #FF9800;
+      background-image:url("../../img/hero.gif");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
       height:100vh;
 }
+.adhoc{position: absolute; top: 43%; left: 48%; transform: translate(-50%, -50%);font-family: "Cinzel";font-size:6em;color:white;transition:font-size 1s, transform 1s;}
+.adhoc:hover{color:white; font-size:7em; transform:rotate(180deg);cursor:pointer;}
