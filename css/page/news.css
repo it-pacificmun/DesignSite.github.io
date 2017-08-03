@@ -1,4 +1,7 @@
 .main{
-      background-color: #3F51B5;
       height:100vh;
+      background-image: url("../../img/news1.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
