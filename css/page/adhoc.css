@@ -1,10 +1,34 @@
-.main{
-      background-image:url("../../img/hero.gif");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      background-attachment: fixed;
-      height:100vh;
+.main{height:100vh;}
+.mCenter{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.Adhoch1{
+      font-family: 'Libre Barcode 39 Text', cursive;
+      font-size: 5em;
 }
-.adhoc{position: absolute; top: 43%; left: 48%; transform: translate(-50%, -50%);font-family: "Cinzel";font-size:6em;color:white;transition:font-size 1s, transform 1s;}
-.adhoc:hover{color:white; font-size:7em; transform:rotate(180deg);cursor:pointer;}
+.Adhocp{
+      font-family: 'Libre Barcode 39 Text', cursive;
+      font-size: 2.3em;
+}
+.Adhocinv{color:white;}
+.Adhocinput{
+      font-size: 2em;
+      width:500px;
+      border:none;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      margin-right: 30px;
+}
+.Adhocinput::placeholder {
+      text-align: center;
+}
+.Adhocbut{
+      font-size: 2em;
+      background-color: transparent;
+      border:none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+}
+
+.gn-menu-main > li > a {color: #2980b9;}
+.gn-menu-main > li > a:hover{color: white;}
+.gn-menu-main > li > a > div{background-color: #2980b9;}
+.gn-menu-main > li > a:hover  > div{background-color: white;}

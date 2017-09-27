@@ -1,4 +1,17 @@
 .main{
       background-color: #AB47BC;
       height:100vh;
+      margin:0;
+      padding-top:60px;
 }
+.CC{
+      margin:0;
+      padding: 0;
+}
+.CC1{
+      padding: 0px 15px;
+      color:white;
+}
+      .CC1Timg{
+            width:75px;
+      }

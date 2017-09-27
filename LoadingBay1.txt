@@ -1,0 +1,59 @@
+Storage Bay 1
+<div id="ssModal" class="modal ssM fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+            <div class="modal-content ssMcontent">
+                  <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#sssModal" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                  <div class="modal-exit ssL"><button type="button" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                  <div class="modal-body ssMbody row">
+                        <div class="col-sm-6">
+                              <img class="ssMimg" src="img/sect/judithc.jpg" alt="sspic">
+                        </div>
+                        <div class="col-sm-6">
+                              <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                              <br>
+                              <h1 class="ssMh1">Judith Sexy</h1>
+                              <p class="ssMp1">Under Secretary General of Sexyyyyy</p>
+                              <p class="ssMp TI">
+                                    Currently a Gr. 11 student attending Semiahmoo Secondary, Judith is absolutely ecstatic to be serving as the USG of Conference for this year’s PacificMUN.
+                                    Ever since her first Model UN conference in Gr. 9, Judith has cultivated a sincere passion for Model UN and its community.
+                                    She believes that Model UN is an educational experience unlike any other, and is an excellent outlet to develop public speaking skills, expand international knowledge, and connect with amazing individuals.
+                              </p><br>
+                              <p class="ssMp TI">
+                                    Outside the exciting world of Model UN, Judith is also heavily invested in her school community, event organization, and social justice.
+                                    In her spare time however, Judith can be found watching documentaries, editing her Spotify playlists, and playing volleyball.
+                                    All in all, Judith hopes to provide a memorable delegate experience and looks forward to PacificMUN 2018!
+                              </p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>
+<div id="sssModal" class="modal ssM fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+            <div class="modal-content ssMcontent">
+                  <div class="modal-exit ssR"><button type="button" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                  <div class="modal-exit ssL"><button type="button" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                  <div class="modal-body ssMbody row">
+                        <div class="col-sm-6">
+                              <img class="ssMimg" src="img/sect/judithc.jpg" alt="sspic">
+                        </div>
+                        <div class="col-sm-6">
+                              <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                              <br>
+                              <h1 class="ssMh1">Judith Not Sexy</h1>
+                              <p class="ssMp1">Under Secretary General of Sexyyyyy</p>
+                              <p class="ssMp TI">
+                                    Currently a Gr. 11 student attending Semiahmoo Secondary, Judith is absolutely ecstatic to be serving as the USG of Conference for this year’s PacificMUN.
+                                    Ever since her first Model UN conference in Gr. 9, Judith has cultivated a sincere passion for Model UN and its community.
+                                    She believes that Model UN is an educational experience unlike any other, and is an excellent outlet to develop public speaking skills, expand international knowledge, and connect with amazing individuals.
+                              </p><br>
+                              <p class="ssMp TI">
+                                    Outside the exciting world of Model UN, Judith is also heavily invested in her school community, event organization, and social justice.
+                                    In her spare time however, Judith can be found watching documentaries, editing her Spotify playlists, and playing volleyball.
+                                    All in all, Judith hopes to provide a memorable delegate experience and looks forward to PacificMUN 2018!
+                              </p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</div>

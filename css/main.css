@@ -1,0 +1,46 @@
+/* This is the main css sheet. Default settings across the website will be found here*/
+
+/* Fonts */
+@font-face{
+	font-family: Stellar;
+	src: url("../fonts/Stellar-Light.otf");
+}
+@font-face{
+	font-family: Hewitt;
+	src: url("../fonts/CooperHewitt-Light.otf");
+}
+.OpenSans{font-family: 'Open Sans', sans-serif;}
+.Roboto{font-family: 'Roboto', sans-serif;}
+
+/* Universal Css Sheet */
+*{-webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important;
+      font-family: Hewitt;
+}
+p{font-size:16px;}
+.row{margin:0;}
+
+/* Image Sizes */
+.fullwidth{width: 100%;}
+.width80{width:80%;}
+.width50{width:50%;}
+.fullheight{height:100%;}
+
+/* Alignment */
+.TAS{text-align: center;}
+.TAR{text-align:right;}
+.TAL{text-align:left;}
+.TNS{padding-top:60px;}
+
+/* Text */
+.CAP{text-transform: uppercase;}
+.TI{text-indent: 25px;}
+
+/*Easy Color*/
+.LBlue{color: #2980b9;}
+.LGrey{color: #455A64;}
+
+/* Nav */
+@media screen and (max-width: 750px) {
+      .SMND{display: none;}
+      .SMTAS{text-align: center;}
+}

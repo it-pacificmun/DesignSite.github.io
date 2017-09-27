@@ -1,0 +1,49 @@
+.main{height:100vh; background-color: #009688;}
+
+
+
+
+.cMain{
+      background-image: url("../../img/legal1.png"); background-position: center center; background-size: cover; background-repeat: no-repeat;
+      color: white;
+      height:100vh;
+}
+.c1{padding: 90px 0px;}
+.c1h1{font-size: 5em;}
+
+.c2h4, .c2h4cd{
+      float:center;
+      color:#2980b9;
+      margin: 50px 0px;
+}
+.c2h4cd{background-color:white; padding:15px 50px;}
+.c2a{
+      transition: all 2s;
+      padding:15px 50px;
+      background-color:white;
+      border-left:5px solid #2980b9;
+}
+      .c2a:hover{
+      color:white;
+      border-color: white;
+      background-color: rgba(41, 128, 185, 0.8);
+
+}
+
+.c3{
+      background-image: url("../../img/legal1.png"); background-position: center center; background-size: cover; background-repeat: no-repeat;
+      color: white;
+      height:100vh;
+}
+.c3img{
+      width:50%;
+      margin-top: 25%;
+}
+.c3col{
+      height:100%;
+      padding:0;
+}
+.c3col1{
+      height:100%;
+      background-color: #f6992b;
+}

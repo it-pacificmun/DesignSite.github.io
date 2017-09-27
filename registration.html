@@ -6,84 +6,59 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <title>Registration</title>
-
-      <link href="https://fonts.googleapis.com/css?family=Abel|Alegreya+SC|Amatic+SC|Cinzel|Gloria+Hallelujah|Open+Sans|Playfair+Display|Roboto" rel="stylesheet">
-
-      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+      <!-- External Stylesheets -->
       <link rel="stylesheet" href="css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="css/all/main.css"/>
-      <link rel="stylesheet" href="css/all/fonts.css"/>
-      <link rel="stylesheet" href="css/all/nav.css"/>
-      <link rel="stylesheet" href="css/all/navcolor.css"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+      <!-- Internal Main Stylesheets -->
+      <link rel="stylesheet" href="css/main.css"/>
+      <link rel="stylesheet" href="css/nav.css"/>
+      <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="css/page/reg.css"/>
 </head>
 <body>
+      <!-- Main Content -->
       <div class="main"></div>
 
-      <ul id="gn-menu" class="gn-menu-main">
-            <li class="gn-trigger">
-                  <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-                  <nav class="gn-menu-wrapper">
-                        <div class="gn-scroller">
-                              <ul class="gn-menu">
-                                    <li><a href="aboutus.html" class="gn-icon gn-icon-about">About Us</a></li>
-                                    <li>
-                                          <a href="conference.html"  class="gn-icon gn-icon-conf">Conference</a>
-                                          <ul class="gn-submenu">
-                                                <li><a href="venue.html"  class="gn-icon gn-icon-venue TI">Venue</a></li>
-                                                <li><a href="schedule.html"  class="gn-icon gn-icon-schedule TI">Schedule</a></li>
-                                                <li><a href="policy.html"  class="gn-icon gn-icon-policy TI">Policy</a></li>
-                                          </ul>
-                                    </li>
-                                    <li><a href="committees.html"  class="gn-icon gn-icon-com">Committees</a></li>
-                                    <li><a href="registration.html"  class="gn-icon gn-icon-reg">Registration</a></li>
-                                    <li><a href="adhoc.html"  class="gn-icon gn-icon-adhoc">ADHOC</a></li>
-                              </ul>
-                        </div><!-- /gn-scroller -->
-                  </nav>
-            </li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="sponsors.html">Sponsors</a></li>
-            <li><a href="index.html"><i class="fa fa-anchor"></i></a></li>
-      </ul>
+      <!-- Footer -->
       <div class="footer">
             <div class="container">
-                  <div class="footbot row">
-                        <div class="col-sm-6 SMTAS">
-                              <a class="footBtn" data-toggle="modal" data-target="#footModal">Questions?</a>
-                        </div>
-                        <div class="col-sm-6 TAR SMND">Pacific Model United Nations 2018</div>
-                  </div>
+                  <p class="footp1"> Dare to Speak </p>
+                  <p class="footp"> Pacific Model United Nations Vancouver 2018 </p>
             </div>
       </div>
-      <div class="modal fade" id="footModal" tabindex="-1" role="dialog" aria-labelledby="footModalLabel">
-            <div class="modal-dialog" role="document">
+
+      <!-- Navigation -->
+      <ul id="gn-menu" class="gn-menu-main">
+            <li><a class="gnbtn" data-toggle="modal" href="#navModal">
+                  <div class="gnbtn1"></div>
+                  <div class="gnbtn2"></div>
+                  <div class="gnbtn3"></div>
+            </a></li>
+            <li><a href="index.html"><i class="fa fa-anchor"></i></a></li>
+      </ul>
+      <div id="navModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
                   <div class="modal-content">
-                        <div class="modal-header">
-                              <button type="button" class="close modelClose" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                              </button>
-                              <h4 class="modal-title TAS CAP" id="footModalLabel">We're Here To Help</h4>
+                        <div class="modal-body navMbody">
+                              <a class="navMa" href="index.html">PacificMUN 2018</a><br>
+                              <a class="navMa" href="aboutus.html">About Us</a><br>
+                              <a class="navMa" href="committees.html">Committees</a><br>
+                              <a class="navMa" href="conference.html">Conference</a><br>
+                              <a class="navMa" href="registration.html">Registration</a><br>
+                              <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-body TAS">
-                              <h2 class="CAP">Email delegateaffairs@pacificmun.org</h2> </br>
-                              <p>Ask us any questions or concerns you may have, we would be happy to answer them for you. Want to stay updated on conference news?</p>
-                              <h3>Like and Follow our Facebook Page <a class="model-fb" href="https://www.facebook.com/PacificModelUN/"><i class="fa fa-facebook-official LBlue"></i></a> </h3>
-                        </div>
-                        <div class="modal-footer">
-                              <button type="button" class="btn modelBtn CAP" data-dismiss="modal">Close</button>
+                        <div class="modal-exit">
+                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
                         </div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+      <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<!-- GN Menu -->
-      <script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-	</script>
+      <script src="js/main.js"></script>
 </body>
 </html>

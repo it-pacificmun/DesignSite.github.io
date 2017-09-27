@@ -1,0 +1,68 @@
+/* Modal Styles */
+
+/* All Modal Styles*/
+.modal-backdrop{background-color: #455A64;}
+.modal-backdrop.in {filter: alpha(opacity=90); opacity: 0.90;}
+.modal-content{
+      border:0;
+      border-radius:0;
+      -webkit-box-shadow:none;
+      box-shadow:none;
+}
+.exitMp, .exitMp:hover{color:white; font-size: 3em; transition: all 1s;}
+.exitMp:hover{transform: rotate(135deg);}
+
+/* Navigation Modal Styles */
+.navMcontent {background-color:transparent;}
+.navMbody{float:right; text-align: right;}
+.navMbtn{background-color: transparent; border:none;}
+.navMa{
+      font-size: 3em;
+      position: relative;
+      text-decoration: none;
+      color: white;
+}
+.navMa:before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      background-color: white;
+}
+.navMa:hover{color:white;}
+.navMa:hover:before{
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      color: white;
+}
+
+/* Modal For Sect and Staff Styles*/
+.ssMcontent{background-color: rgba(41, 128, 185, 0.3); padding:10px 40px;}
+.ssMbtn{background-color: transparent; border:none; float:right;}
+.ssMimg{width:100%;}
+.ssMh1{color:white; border-left:5px solid white; padding-left:10px;}
+.ssMp1{color:white; font-style: italic;}
+.ssMp{color:white;}
+.ssMbtn1{background-color: transparent; border:none;}
+.ssMbtnp{color: #2980b9; font-size: 6em; background-color: white; padding:0px 25px; transition: all 1s;}
+.ssMbtnp:hover{font-size: 7em;}
+.ssR{
+	position:absolute;
+	top:50%;
+	left:0%;
+	transform: translate(-50%, -50%);
+}
+.ssL{
+	position:absolute;
+	top:50%;
+	left:100%;
+	transform: translate(-50%, -50%);
+}

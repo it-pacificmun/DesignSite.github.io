@@ -6,90 +6,102 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <title>About Us</title>
-
-      <link href="https://fonts.googleapis.com/css?family=Abel|Alegreya+SC|Amatic+SC|Cinzel|Gloria+Hallelujah|Open+Sans|Playfair+Display|Roboto" rel="stylesheet">
-
-      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+      <!-- External Stylesheets -->
       <link rel="stylesheet" href="css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="css/all/main.css"/>
-      <link rel="stylesheet" href="css/all/fonts.css"/>
-      <link rel="stylesheet" href="css/all/nav.css"/>
-      <link rel="stylesheet" href="css/all/navcolor.css"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+      <!-- Internal Main Stylesheets -->
+      <link rel="stylesheet" href="css/main.css"/>
+      <link rel="stylesheet" href="css/nav.css"/>
+      <link rel="stylesheet" href="css/modal.css"/>
+      <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="css/page/aboutus.css"/>
 </head>
-<body>
-      <div class="main"></div>
+<body data-spy="scroll" data-target=".Hbottom">
+      <!-- Main Content -->
+      <div class="main">
+            <div class="hero parallax">
+                  <div class="Hcenter">
+                        <img src="img/logowhite.png" alt="Logo" class="Hcimg">
+                        <h1 class="Hch1">PACIFICMUN</h1>
+                        <h3>ABOUT US</h3>
+                  </div>
+                  <div class="Hbottom">
+                        <a class="Hba" href="#content2"> Our Dream </a>
+                        <a class="Hba" href="#content1"><i class="fa fa-anchor"></i></a>
+                        <a class="Hba" href="#content3"> Our Team </a>
+                  </div>
+            </div>
+            <!-- Our Story Content -->
+            <div class="content1" id="content1">
+                  1
+            </div>
+            <!-- Our Dream Content -->
+            <div class="content2" id="content2">
+                  2
+            </div>
+            <!-- Our Team Content-->
+            <div class="content3" id="content3">
+                  <div class="container">
+                        <!-- Team Introduction Div -->
+                        <div class="C3TI row">
+                              <div class="C3center">
+                                    <h1 class="C3ch1">SECRETARIAT TEAM</h1>
+                                    <h3 class="C3ch3">- PACIFICMUN 2018 -</h3>
+                                    <p class="C3cp">
+                                          Over the past year, ten dedicated individuals have worked through busy days and late nights to make PacificMUN 2018 a reality.
+                                          While they have individual responsibilities as their title would suggest, the fact is that each member has contributed more than their title.
+                                          They have contributed to the spirit of this conference, and spent their time not in the name of personal gain, but in the name of crafting a premier quality conference for delegates, sponsor teachers, and staff.
+                                    </p>
+                              </div>
+                        </div>
+                        <!-- Secretariat Team -->
+                        <div class="C3sect">
+                              <div class="C3Sdiv col-sm-4">test</div>
+                              <div class="C3Sdiv col-sm-4">asdf</div>
+                              <div class="C3Sdiv col-sm-4">asdf</div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
-      <ul id="gn-menu" class="gn-menu-main">
-            <li class="gn-trigger">
-                  <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-                  <nav class="gn-menu-wrapper">
-                        <div class="gn-scroller">
-                              <ul class="gn-menu">
-                                    <li><a href="aboutus.html" class="gn-icon gn-icon-about">About Us</a></li>
-                                    <li>
-                                          <a href="conference.html"  class="gn-icon gn-icon-conf">Conference</a>
-                                          <ul class="gn-submenu">
-                                                <li><a href="venue.html"  class="gn-icon gn-icon-venue TI">Venue</a></li>
-                                                <li><a href="schedule.html"  class="gn-icon gn-icon-schedule TI">Schedule</a></li>
-                                                <li><a href="policy.html"  class="gn-icon gn-icon-policy TI">Policy</a></li>
-                                          </ul>
-                                    </li>
-                                    <li><a href="committees.html"  class="gn-icon gn-icon-com">Committees</a></li>
-                                    <li><a href="registration.html"  class="gn-icon gn-icon-reg">Registration</a></li>
-                                    <li><a href="adhoc.html"  class="gn-icon gn-icon-adhoc">ADHOC</a></li>
-                              </ul>
-                        </div><!-- /gn-scroller -->
-                  </nav>
-            </li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="sponsors.html">Sponsors</a></li>
-            <li><a href="index.html"><i class="fa fa-anchor"></i></a></li>
-      </ul>
+      <!-- Footer -->
       <div class="footer">
             <div class="container">
-                  <div class="footbot row">
-                        <div class="col-sm-6 SMTAS">
-                              <a class="footBtn" data-toggle="modal" data-target="#footModal">Questions?</a>
+                  <p class="footp1"> Dare to Speak </p>
+                  <p class="footp"> Pacific Model United Nations Vancouver 2018 </p>
+            </div>
+      </div>
+
+      <!-- Navigation -->
+      <ul id="gn-menu" class="gn-menu-main">
+            <li><a class="gnbtn" data-toggle="modal" href="#navModal">
+                  <div class="gnbtn1"></div>
+                  <div class="gnbtn2"></div>
+                  <div class="gnbtn3"></div>
+            </a></li>
+            <li><a href="index.html"><i class="fa fa-anchor"></i></a></li>
+      </ul>
+      <div id="navModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content navMcontent">
+                        <div class="modal-body navMbody">
+                              <a class="navMa" href="index.html">PacificMUN 2018</a><br>
+                              <a class="navMa" href="aboutus.html">About Us</a><br>
+                              <a class="navMa" href="committees.html">Committees</a><br>
+                              <a class="navMa" href="conference.html">Conference</a><br>
+                              <a class="navMa" href="registration.html">Registration</a><br>
+                              <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="col-sm-6 TAR SMND">Pacific Model United Nations 2018</div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
-      <div class="modal fade" id="footModal" tabindex="-1" role="dialog" aria-labelledby="footModalLabel">
-            <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                        <div class="modal-header">
-                              <button type="button" class="close modelClose" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                              </button>
-                              <h4 class="modal-title TAS CAP" id="footModalLabel">We're Here To Help</h4>
-                        </div>
-                        <div class="modal-body TAS">
-                              <h2 class="CAP">Email delegateaffairs@pacificmun.org</h2> </br>
-                              <p>Ask us any questions or concerns you may have, we would be happy to answer them for you. Want to stay updated on conference news?</p>
-                              <h3>Like and Follow our Facebook Page <a class="model-fb" href="https://www.facebook.com/PacificModelUN/"><i class="fa fa-facebook-official LBlue"></i></a> </h3>
-                        </div>
-                        <div class="modal-footer">
-                              <button type="button" class="btn modelBtn CAP" data-dismiss="modal">Close</button>
-                        </div>
-                  </div>
-            </div>
-      </div>
-      <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left">
-            <i class="fa fa-anchor"></i></a>
+      <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+      <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/classie.js"></script>
-	<script src="js/gnmenu.js"></script>
-	<script>
-		new gnMenu( document.getElementById( 'gn-menu' ) );
-	</script>
-      <script>
-            function setStyleSheet(url){
-                  var stylesheet = document.getElementById("stylesheet");
-                  stylesheet.setAttribute('href', url);
-            }
-      </script>
+      <script src="js/main.js"></script>
 </body>
 </html>

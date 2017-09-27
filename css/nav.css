@@ -1,0 +1,53 @@
+/* Back to Top Button Settings */
+.btn-primary, .btn-primary:hover{border:0 !important;}
+.back-to-top {position: fixed; bottom: 20px; right: 20px; display:none; color:white; border-radius:0px; transition:color 1s, background-color 1s;
+	background-color:transparent !important;
+}
+.back-to-top:hover{color:#2980b9; background-color: white !important;}
+
+/* Tooltip */
+.tooltip > .tooltip-inner {background-color: #2980b9;}
+.tooltip.left > .tooltip-arrow{border-left:5px solid #2980b9;}
+
+/* Scrollbar Settings*/
+::-webkit-scrollbar{width:8px;}
+::-webkit-scrollbar-thumb{background-color:white;}
+::-webkit-scrollbar-track {background-color:#2980b9;}
+
+/* Header is 60px Height */
+*,*:after, *::before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.gn-menu-main, .gn-menu-main ul {margin: 0; padding: 0; list-style: none; text-transform: none; font-weight: 300; line-height: 60px; background:transparent; color: white;}
+.gn-menu-main {position: fixed; top: 0; left: 0; width: 100%; height: 60px; font-size: 13px;}
+.gn-menu-main a {display: block; height: 100%; padding: 0 30px; text-decoration: none; cursor: pointer; color: white; transition: all 0.5s;}
+.gn-menu-main a:hover{background-color: #455A64;}
+.gn-menu-main > li {display: block;float: left;height: 100%; text-align: center;}
+.gn-menu-main > li:last-child {float: right; font-size: 1.7em;}
+.gn-menu-main > li > a > div {
+	height: 3px;
+	background: #fff;
+	margin: 5px 0px 5px 0px;
+	transition: all 1s;
+}
+.gnbtn1 { width: 30px; margin-top:0 !important;}
+.gnbtn2 { width: 15px; }
+.gnbtn3 { width: 25px; margin-bottom:0 !important;}
+.gnbtn{padding:20px 25px 0px 25px !important;}
+.gnbtn:hover div{ width: 30px; }
+@media screen and (max-width: 422px) {
+	.gn-menu-wrapper.gn-open-all {
+		-webkit-transform: translateX(0px);
+		-moz-transform: translateX(0px);
+		transform: translateX(0px);
+		width: 100%;
+	}
+	.gn-menu-wrapper.gn-open-all .gn-scroller {
+		width: 130%
+	}
+	.gn-menu-main > li:last-child {float: left;}
+}
+
+/* Footer */
+.footer{padding: 25px 0px; background-color: #455A64;}
+.footp, .footp1{ color: white; margin: 0;}
+.footp{float: left;}
+.footp1{float: right;}

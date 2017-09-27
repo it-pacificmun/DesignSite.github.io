@@ -1,4 +1,60 @@
-.main{
-      background-color: #FF9800;
-      height:100vh;
+/* General Styles */
+.main{color:white;}
+.hero, .content1, .content2{ height:100vh;}
+
+/* Hero Styles */
+.hero{
+      background-image:url("../../img/background1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
 }
+.Hcenter{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.Hcimg{width:150px;}
+.Hch1{font-size:4em;}
+.Hbottom{position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.Hba, .Hba:hover{
+      color:white;
+      padding:0px 25px;
+      text-transform: uppercase;
+}
+.Hba{
+      font-size: 1.5em;
+      transition: all 1s;
+}
+.Hba:hover{
+      font-size: 1.7em;
+}
+
+/* Content1 Styles */
+.content1{
+      background: linear-gradient(to top right, #2980b9, #455A64);
+}
+
+/* Content2 Styles */
+.content2{
+      background-color: #009688;
+}
+
+/* Content3 Styles */
+.content3{
+      background-image:url("../../img/sect/sect.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
+/* Team Introduction Div */
+.C3TI{
+      height:100vh;
+      text-align: center;
+      vertical-align: middle;
+}
+/* TI Center */
+.C3center{
+      padding-top: 65vh;
+}
+
+/* Secretariat Page */
+.C3sect{background-color: #2980b9; }
