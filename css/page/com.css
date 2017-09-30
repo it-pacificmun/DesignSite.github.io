@@ -1,5 +1,5 @@
-/* Hero Styles */
-.hero{height:100vh; margin:0; padding-top:60px;
+/* Main Styles */
+.main{
       background-image:url("../../img/committees.png");
       background-repeat: no-repeat;
       background-position: center;
@@ -7,11 +7,33 @@
       background-attachment: fixed;
 }
 
+/* Hero Styles */
+.hero{ height:100vh; margin:0; padding-top:60px; }
+.Hcol{height:100%;}
+.Hh1{
+      font-family: 'Playfair Display', serif;
+      font-size: 7em;
+      position:absolute;
+      top:75%;
+      left:0;
+      transform: translate(-50% -50%);
+      color: white;
+}
+.HcolRp{
+      position:absolute;
+      top:25%;
+      left:0;
+      transform: translate(-50% -50%);
+      color: white;
+      text-align: center;
+      padding:0px 50px;
+}
+
 /* Content 1 Styles */
-.content1{height:auto; background-color: #3a4558;}
+.content1{height:auto; background: linear-gradient(rgba(69, 90, 99, 0), rgba(69, 90, 99, 1));}
 .C1row1{margin:0; text-align: center; padding:25px 0px;}
 .C1rowdiv{text-align: left;}
-.C1rowh1{margin-bottom: 20px; font-size: 3.5em; text-transform: uppercase; color:white;}
+.C1rowh1{margin:75px 0px; font-size: 3.5em; text-transform: uppercase; color:white;}
 
 /* Committees Selection Grid Styles */
 .grid {max-width: 100%; padding:0px 5px;}

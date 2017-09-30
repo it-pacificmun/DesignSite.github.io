@@ -14,18 +14,23 @@
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/adhoc.css"/>
 </head>
 <body>
+      <!-- Main Content -->
       <div class="main">
             <div class="mCenter">
+                  <a data-toggle="modal" href="#adhocModal"><img class="Adhocimg" src="../img/adhocL.png"></a>
                   <h1 class="Adhoch1">Adhoc</h1>
-                  <p class="Adhocp">We do not forgive. We do not forget.</p>
+                  <p class="Adhocp">We are unpredictable. We are unforgiving.</p>
                   <p class="Adhocinv">The orca sings by the rogue 11.11.11</p>
                   <br><br><br>
-                  <input class="Adhocinput" type="password" name="pwd" placeholder="Adhoc Password">
-                  <button class="Adhocbut">Enter</button>
+                  <form>
+                        <input class="Adhocinput" type="password" name="pwd" placeholder="Adhoc Password">
+                        <button type="submit" class="Adhocbut"><a href="http://bit.ly/IqT6zt">Enter</a></button>
+                  </form>
             </div>
       </div>
 
@@ -40,7 +45,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -49,13 +54,47 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+      <!-- Committee Description -->
+      <div id="adhocModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content adhocMcontent">
+                        <div class="modal-body adhocMbody">
+                              <br>
+                              <p class="adhocMp">
+                                    To the delegates of PacificMUN,
+                              </p>
+                              <p class="adhocMp">
+                                    During the previous iteration of PacificMUN, our agents took control of over 10 committees and brought chaos into the conference rooms.
+                                    Our footprint was forever cemented into the committee resolutions, bringing the Illuminati another step closer to world domination.
+                                    This year we are back, and you are not prepared.
+                              </p>
+                              <p class="adhocMp">
+                                    ADHOC is an exclusive committee built for the most calculating, ambitious, and talented delegates in the world of Model United Nations.
+                                    Challenging to say the least, ADHOC at PacificMUN is the ultimate test of skill to any delegate who dare to step up to the plate.
+                                    The topic and structure of the committee will be completely secret until the day of the conference.
+                              </p>
+                              <p class="adhocMp">
+                                    Will you join us on a journey of destruction, manipulation, and validation, or to stand against us and collapse beneath our feet?
+                              </p>
+                              <p class="adhocMi">
+                                    We are unpredictable. <br>
+                                    We are unforgiving. <br>
+                                    We are ADHOC. <br>
+                              </p>
+                              <p class="adhocMp">Best Regards, <a class="adhocMa" href="http://bit.ly/IqT6zt">Agent 007</a></p>
+                        </div>
+                        <div class="modal-exit">
+                              <div class="modal-exit"><button type="button" data-dismiss="modal" class="adhocMbtn"><p class="exitMp">&#10006;</p></button></div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

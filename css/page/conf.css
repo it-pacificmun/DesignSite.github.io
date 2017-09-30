@@ -1,17 +1,17 @@
+/* Main Styles */
 .main{
-      background-color: #AB47BC;
-      height:100vh;
-      margin:0;
-      padding-top:60px;
-}
-.CC{
-      margin:0;
-      padding: 0;
-}
-.CC1{
-      padding: 0px 15px;
+      margin: 0;
       color:white;
+      height:100vh;
+      padding-top: 60px;
+      background-color: #455A64;
 }
-      .CC1Timg{
-            width:75px;
-      }
+.H100{ height:100vh; }
+.H50{ height:50vh; }
+
+/* Layer 1 Styles */
+.L1h1, .L1h2{ font-family: 'Playfair Display', serif; }
+.L1h1{ font-size: 4em; padding:10px 0px; }
+.L1h2-{ font-size: 5em; }
+.L1learn, .L1learn:hover{color:white; font-size: 3em; transition: all 1s;}
+.L1learn:hover{transform: rotate(135deg);}

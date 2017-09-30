@@ -1,7 +1,6 @@
 /* General Styles */
-.main{color:white;}
-.hero, .content1, .content2{ height:100vh;}
-
+.main{ color: white; }
+.Ccol{ padding: 0px 10px;}
 /* Hero Styles */
 .hero{
       background-image:url("../../img/background1.png");
@@ -9,34 +8,40 @@
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
+      height:100vh;
 }
-.Hcenter{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
-.Hcimg{width:150px;}
-.Hch1{font-size:4em;}
-.Hbottom{position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
-.Hba, .Hba:hover{
-      color:white;
-      padding:0px 25px;
-      text-transform: uppercase;
-}
-.Hba{
-      font-size: 1.5em;
-      transition: all 1s;
-}
-.Hba:hover{
-      font-size: 1.7em;
-}
+
+      /* Hero Center Styles */
+      .Hcenter{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+      .Hcimg{width:150px;}
+      .Hch1{font-size:4em;}
+
+      /* Hero Bottom Styles */
+      .Hbottom{position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+      .Hba, .Hba:hover{
+            color:white;
+            padding:0px 25px;
+            text-transform: uppercase;
+      }
+      .Hba{
+            font-size: 1.5em;
+            transition: all 1s;
+      }
+      .Hba:hover{
+            font-size: 1.7em;
+      }
+
+/* Multiple Content Styles */
+.Ctitle{padding:150px 0px;}
+.Ch1{ font-family: 'Playfair Display', serif; font-size: 8em;}
 
 /* Content1 Styles */
-.content1{
-      background: linear-gradient(to top right, #2980b9, #455A64);
-}
+.content1{background: linear-gradient(#2980b9, #455A64);}
+
 
 /* Content2 Styles */
-.content2{
-      background-color: #009688;
-}
-
+.content2{ background-color: #455A64; padding-bottom: 100px;}
+.C2p{ padding-top: 50px;}
 /* Content3 Styles */
 .content3{
       background-image:url("../../img/sect/sect.jpg");
@@ -45,16 +50,42 @@
       background-size: cover;
       background-attachment: fixed;
 }
-/* Team Introduction Div */
-.C3TI{
-      height:100vh;
-      text-align: center;
-      vertical-align: middle;
-}
-/* TI Center */
-.C3center{
-      padding-top: 65vh;
-}
 
-/* Secretariat Page */
-.C3sect{background-color: #2980b9; }
+      /* Team Introduction Div */
+      .C3TI{ background: linear-gradient(transparent, #2980b9); }
+
+      /* Secretariat Page */
+      .C3sect{background-color: #2980b9; }
+      .C3con{padding:20px 50px;}
+
+      /* Sect Pic Hover */
+      .C3Sspan{
+            position:absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+      }
+      .C3Ssdiv, .C3Ssdiv1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background:transparent;
+            color: transparent;
+            transition: all 1s;
+            margin: 0px 15px;
+      }
+      .C3Sa:hover .C3Ssdiv1 {
+            background:rgba(69, 90, 99, 0.7);
+            color: white;
+            cursor: url(../../img/sect/pineapple.png), pointer;
+      }
+      .C3Sa:hover .C3Ssdiv{
+            background:rgba(69, 90, 99, 0.7);
+            color: white;
+      }
+      .C3Ssp{
+            font-style: italic;
+      }

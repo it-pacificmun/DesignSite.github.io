@@ -27,6 +27,11 @@
       border-top: 1px solid black;
       border-bottom: 1px solid black;
 }
+.Adhocimg{width:100px; transition: all 2s;}
+.Adhocimg:hover{
+      width:110px;
+      transform: rotate(180deg);
+}
 
 .gn-menu-main > li > a {color: #2980b9;}
 .gn-menu-main > li > a:hover{color: white;}

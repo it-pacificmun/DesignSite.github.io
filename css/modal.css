@@ -50,7 +50,7 @@
 .ssMimg{width:100%;}
 .ssMh1{color:white; border-left:5px solid white; padding-left:10px;}
 .ssMp1{color:white; font-style: italic;}
-.ssMp{color:white;}
+.ssMp{color:white; font-size:14px;}
 .ssMbtn1{background-color: transparent; border:none;}
 .ssMbtnp{color: #2980b9; font-size: 6em; background-color: white; padding:0px 25px; transition: all 1s;}
 .ssMbtnp:hover{font-size: 7em;}
@@ -66,3 +66,9 @@
 	left:100%;
 	transform: translate(-50%, -50%);
 }
+
+/* Modal for Adhoc Styles */
+.adhocMcontent {background-color:black; padding:10px 40px;}
+.adhocMbody{float:right; text-align: right; color:white;}
+.adhocMbtn{background-color: transparent; border:none;}
+.Adhocimg1{width:30px;}
