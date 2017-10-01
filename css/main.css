@@ -1,5 +1,4 @@
 /* This is the main css sheet. Default settings across the website will be found here*/
-
 /* Fonts */
 @font-face{
 	font-family: Stellar;
@@ -16,7 +15,6 @@
 .OpenSans{ font-family: 'Open Sans', sans-serif; }
 .Roboto{ font-family: 'Roboto', sans-serif; }
 .Ruthie{ font-family: 'Ruthie', cursive; }
-
 /* Universal Css Sheet */
 *{
 	border-radius: 0 !important;
@@ -36,7 +34,9 @@ p{ font-size:16px; }
 
 /*Easy Color*/
 .LBlue{ color: #2980b9; }
+.LBlue1{ color: rgba(41, 128, 185, 0.0); }
 .LGrey{ color: #455A64; }
+.LGrey{ color: rgba(69, 90, 99, 0.0); }
 
 /* Image Sizes */
 .fullwidth{ width: 100%; }

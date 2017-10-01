@@ -6,21 +6,18 @@
       background-image:url("../../img/Hbackindex.png");
       height:100vh;
 }
-.hero-h1{ font-size:5em; }
+.hero-h1{ font-size:8em; font-family: 'Playfair Display', serif; }
 .hero-a{
-      float: right;
       color: white;
       transition: all 1s;
       font-size: 1.4em;
       transition-delay: 6s;
       padding: 20px 45px;
-      border-bottom: 3px solid white;
 }
 .hero-a:hover{
       color: white;
       animation-name: color;
       animation-duration: 2s;
-      border-color: #2980b9;
       background-color: #2980b9;
 }
 @keyframes color {

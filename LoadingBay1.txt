@@ -75,3 +75,25 @@ Storage Bay 1
             </div>
       </div>
 </div>
+
+<div class="col-sm-6 Hcol">
+      <h1 class="Hh1">Committees</h1>
+</div>
+<div class="col-sm-6 Hcol">
+      <div class="HcolRp">
+            <p>
+                  PacificMUN is pleased to offer sixteen unique committees that embody controversy and diplomacy.
+                  Our innovative committees are suitable for a wide range of delegates:
+                  beginner delegates may enjoy the diverse perspectives of a General Assembly, while veteran delegates may participate in exhilarating, intense debate within a smaller sphere.
+            </p>
+            <p>
+                  Positions papers are due (date).
+                  It is highly recommended for delegates to submit a position paper in order to be considered for an award.
+                  Delegates in advanced and crisis committees must submit a position paper, with exceptions to Ad Hoc.
+            </p>
+            <p>
+                  If you have any questions or concerns, please contact Xudi Lin, our USG Committees 1, via committees1@pacificmun.org,
+                  or Adam Mawji, our USG Committees 2, via committees2@pacificmun.org.
+            </p>
+      </div>
+</div>
