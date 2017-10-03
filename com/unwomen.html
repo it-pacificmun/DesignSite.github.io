@@ -7,17 +7,111 @@
 
       <title>UNWOMEN</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain unwomenback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> unwomen@pacificmun.org</p>
+                        <h1 class="ch1"> UNWOMEN </h1>
+                        <p>
+                              For far too long and far too many women all over the world, the basic fundamental rights that every human should be able to exercise are luxuries, not givens.
+                              UN Women, also known as the United Nations Entity for Gender Equality and the Empowerment of Women, was created by the United Nations General Assembly in July 2010.
+                              This was symbolic, because it signified a genuine and productive beginning to an era of female empowerment.
+                        </p>
+                        <p>
+                              Currently, there are 45 member states that serve as members of UN Women.
+                              As a part of the UN reform agenda, the creation of UN Women expanded limits for resources and mandates in order to make waves bigger than ever before.
+                              UN Women believes, as everyone should, that gender equality is a basic fundamental human right that, if achieved, will positively affect developing socioeconomic structures worldwide.
+                              The empowerment of women stimulates growth and productivity, thus sustaining and inciting prosperous economies
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Domestic Violence </h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    For over 2000 years, being born as a female has been a curse rather than simply a fact of life. Violence against women has prevailed for many centuries and continues to persist in countries all over the world, disrupting developing socioeconomic structures worldwide. Unfortunately, it has been accepted and even condoned in many cases throughout history. One of the main roots of the problem is imbalanced power relations between men and women, and this is true for all nations struggling with violence against women in general.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Topic 2 -->
+            <div class="cTopic2">
+                  <div class="container">
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    In today’s historically largely male-dominated society, the world is fast changing.
+                                    While formidable progress has been and is continuing to be made on the human rights front in terms of women’s rights, the world, in addition to that, is now realizing and learning to understand that empowering women economically is beneficial to the success and continued development of world economies and businesses
+                              </p><br>
+                              <p class="TI">
+                                    Much research has been found to demonstrate that empowering women to fully participate and indulge in economic life through all levels and across all sectors of economic activity is crucial to ameliorating quality of life for women, children, families, men, and communities, building and supporting strong(er) economies, instituting more socially just and stable societies, attaining goals agreed upon by the international community for the development and sustainability of human rights, and spurring business goals and operations.
+                              </p>
+                        </div>
+                        <div class="col-sm-6">
+                              <div class="TAR fullwidth">
+                                    <a class="cA CAP" href="#">Backgrounder</a>
+                                    <h1 class="ch2 TAR"> Empowerment of Women in the Workplace </h1>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Eleanor Lee </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/elanorl.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Kiran Basra </h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/kiranb.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff3">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> James Chae</h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/jamesc.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +132,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +141,97 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/elanorl.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Eleanor Lee </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Eleanor is currently a Grade 12 student attending Little Flower Academy and can always be found talking and laughing very loudly.
+                                          Because of her unwavering tendency to argue with anyone who dares challenge her (her parents found out the hard way), Eleanor has been involved in debate since Grade 4, and at the earliest opportunity, she joined her school's Model UN club in Grade 10.
+                                          Since then, she has attended quite a few Model UN conferences, with her favorite being Harvard Model Congress Europe 2016 in Rome.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          Aside from Model UN, Eleanor takes particular interest in kicking soccer balls (at people), doodling all over her homework (which always needs spicing up), and watching professionals make eggs, her favorite food of all time, in a whole gamut of different ways on YouTube.
+                                          She also very much enjoys collecting vinyl records (though her father very clumsily broke the family record player years ago and still has not replaced it), feeding her insatiable candy addiction, people-watching, and making all sorts of visual and literary art.
+                                          Eleanor absolutely cannot wait to meet all delegates and is unfathomably ecstatic to be serving as the Director of UN Women at Pacific MUN 2018!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/kiranb.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Kiran Basra </h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Kiran Basra is a grade 11 student attending Crofton House School, who is honored to serve as the chair of UN Women. She has attended Crofton for the past 11 years, and thanks the opportunities within the Ivy walls to explore her interests in Model UN and Debate. Kiran began debating in 8th grade, and has since then grown her interest for diplomacy and international relations through tournaments across seas, and throughout Canada. Her interest for Model UN sparked last year, after having attended a conference in May. Since then, she has been fortunate to grow as a delegate, student, and staff member.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                           Besides Debate and Model UN, Kiran enjoys playing volleyball, soccer, and track. When Kiran isn’t pulling an all-nighter or crying about her dropping GPA and rising stress levels, she can be found sailing at the beach or worshiping her dog at home. Kiran looks forward to PacificMUN 2018 and encourages new delegates to be an active participant at such an incredible learning opportunity.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff3" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/jamesc.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> James Chae </h1>
+                                    <p class="ssMp1"> Assistant DIrector</p>
+                                    <p class="ssMp TI">
+                                          Hyun Ku (James) Chae is your typical Korean.
+                                          He is in grade 11 and goes to school at Churchill for the infamous IB program.
+                                          He started his MUN journey in Vancouver College and has been involved with it for around 2 years. Outside of MUN and school, James plays soccer, piano, and the violin.
+                                          He also works as a soccer referee and a lifesaving instructor/lifeguard (so if anybody starts dying on him in the committee session you're covered).
+                                          He is also familiar with four languages-English, Korean French, and Chinese.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          James likes to hang out and chill with his friends and hates having stuff to do. Naturally, he procrastinates almost all of his time.
+                                          This is his first staffing experience and he is a little nervous, but James looks forward to having a lit and somewhat troll committee with his future delegates for UN Women at PacificMUN 2018.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

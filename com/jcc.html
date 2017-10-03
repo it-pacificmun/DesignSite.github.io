@@ -7,17 +7,126 @@
 
       <title>JCC</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain hjccback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> jcc@pacificmun.org</p>
+                        <h1 class="ch1"> Historical Joint Crisis </h1>
+                        <p>
+                              “Just because you do not take an interest in politics does not mean politics won’t take an interest in you.”
+                        </p>
+                        <p>
+                              Pericles, Head Statesman and Ruler of Athens, General of the Athenian
+                              Military, Admiral of the Athenian Navy, 461-429 BCE.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Pelopen nesian War </h1>
+                        </div>
+                        <div class="col-sm-6">
+                              <p class="TI">
+                                    Χαιρετίσματα (Chairetísmata) delegates, and welcome to where it all began.
+                                    We all know how important Greece was to the establishment of modern political ideologies, so let’s skip the sweet talk and get to what put all that at risk:
+                                    the Peloponnesian War; a time where Greece was divided in half between those who wanted a Greek Empire and those who didn’t.
+                                    The original First World War, this 30-year war pitted Greece’s top militaries against each other: Athens’ navy and Sparta’s army.
+                              </p><br>
+                              <p class="TI">
+                                    The sides could not have been more balanced, and the reward was control of all Greece, something everyone at the time wanted.
+                                    You have been placed in the positions of the most important people and heads of state in Greece at the time:
+                                    representing different city-states and their alignments during the most turbulent time in Ancient Greek history.
+                                    Not only that, but you are at war, and everything you do will have rewards and consequences that can change everything.
+                                    Experience what it’s like to fight in a simpler time: when no one cared about their “international image” or “reputation,” a time where the leader was whoever had the sharpest spears and the most brilliant strategies, not whoever spoke the best.
+                                    In this JCC, the limits are your own creativity and tactical expertise. We shall see you there, Kalí týchi.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Emad Saberi </h2>
+                                          <p class="C3Ssp"> Overlord  </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Eric Zhang </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../../img/staff/.png">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff3">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Peter Im</h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../../img/staff/.png">
+                              </a>
+                        </div>
+                  </div>
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff4">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2>   </h2>
+                                          <p class="C3Ssp">   </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../../img/staff/.png">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff5">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2>  </h2>
+                                          <p class="C3Ssp">  </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../../img/staff/.png">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff6">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2>  </h2>
+                                          <p class="C3Ssp">  </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../../img/staff/.png">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +147,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +156,97 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../../img/staff/.png" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1">      </h1>
+                                    <p class="ssMp1">       </p>
+                                    <p class="ssMp TI">
+
+                                    </p><br>
+                                    <p class="ssMp TI">
+
+                                    </p>
+                                    <p class="ssMp TI">
+
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../../img/staff/.png" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> </h1>
+                                    <p class="ssMp1"> </p>
+                                    <p class="ssMp TI">
+
+                                    </p><br>
+                                    <p class="ssMp TI">
+
+                                    </p>
+                                    <p class="ssMp TI">
+
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff3" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../../img/staff/.png" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> </h1>
+                                    <p class="ssMp1"> </p>
+                                    <p class="ssMp TI">
+
+                                    </p><br>
+                                    <p class="ssMp TI">
+
+                                    </p>
+                                    <p class="ssMp TI">
+
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

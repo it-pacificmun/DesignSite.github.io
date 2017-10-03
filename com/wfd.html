@@ -7,17 +7,79 @@
 
       <title>WFD</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain wfdback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> wfd@pacificmun.org</p>
+                        <h1 class="ch1"> WFD </h1>
+                        <p>
+                              Since its beginnings in 2012, the World Forum for Democracy has served as a platform for dialogue and innovation dedicated specifically to promoting democratic principles throughout the world. The Forum believes these modern systems help keep the fundamental aspects of a democracy present in a functioning government. Democracy has become an essential component of society, adapting to suit the situation of each country and allowing citizens to have a voice using more plausible solutions.
+                        </p>
+                        <p>
+                              The Forum then addresses and deals with challenges facing democracy through ground-breaking initiatives and fostering debate between various parties in order to find solutions. It aims to give the people opportunities to speak up in political decision-making through “Satellite Events” (such as seminars, lectures in schools, surveys, social media campaigns, hackathons, local implementation of innovation initiatives presented in previous Forums, radio/TV debates). Brought together by the Council of Europe, with over 2500 participants from over 100 countries, the purpose of the Forum is to build an open infrastructure using citizens’ input to contribute to the evolution of democracy and cooperation in the 21st Century.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch2"> Redefining Democratic Ideals for the 21st Century </h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    With an emphasis on refining current democratic practices while developing an infrastructure for future expansions on democracy, we must ask ourselves; what would an ideal society consist of? In this current day and age, we are constantly struggling to find the ideal democracy without really knowing what it truly means and the responsibilities that come with it. Some key aspects of this issue that shall be covered include the effects of globalization vs. isolationism, the government’s extent of power, the role of citizens in a democratic future, and the refinement and enhancement of current democratic practices and systems.
+                              </p><br>
+                              <p class="TI">
+                                    Moreover, with issues including corruption, media bias, and censorship in effect, it seems impossible to decipher anything these days. Aside from that, delegates should be prepared to discuss democratic structures and guidelines for the future to tackle corruption and manipulation realistically. With new opportunities for civilians to join in on the political landscape, it is imperative to consider how impactful their voices can be as well as how it affects current-day democratic practices. Along with technological advances, changes will also need to be made and agreed upon in order to foster pluralism and participation as opposed to extremism and abuse of power in society.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-offset-2 col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Celina Chen </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/celinac.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Jasper Mai </h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/jasperm.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +100,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +109,60 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/celinac.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1">  Celina Chen </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Currently in her last year of high school at Pinetree Secondary, Celina is ecstatic to be the director of the World Forum for Democracy at PacificMUN 2018! Ever since her first conference back in 2014, Celina has been actively participating in the Model UN Community. She strongly believes that the experiences and memories one receives through partaking in Model UN is truly life-changing, and hopes to share that ideology with as many people as possible. When she isn't busy procrastinating doing something important, you can find her binging Korean dramas, going on random walks, on a long rant with a friend or very, very rarely, actually asleep.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/jasperm.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Jasper Mai </h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Jasper is currently a grade 11 student attending Fraser Heights Secondary School and is absolutely ecstatic to serve as the Chair for WFD. After raising his placard thrice in his first Model United Nations conference two years ago, Jasper has since been constantly captivated by the MUN community. Amusing discussions, long-lasting friendships, and incomparable experiences are what kept Jasper interested all these years. When he is not indulging in MUN, Jasper will usually be found participating in athletics like badminton and volleyball, or sometimes even in the confusing world of debate
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          You can often encounter Jasper making cringe-worthy puns, which he hopes to bring to PacificMUN 2018 alongside his delegates. In addition, Jasper is commonly seen watching the prestigious We Bare Bears television show and has recently picked up reading Yotsuba online. Jasper is thrilled for the weekend at PacificMUN 2018 and looks forward to what hopefully develops into an unforgettable experience for all delegates and himself.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

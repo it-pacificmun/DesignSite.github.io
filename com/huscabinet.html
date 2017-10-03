@@ -7,17 +7,82 @@
 
       <title>H:US CABINET</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain husback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> uscabinet@pacificmun.org</p>
+                        <h1 class="ch1"> US CABINET </h1>
+                        <p>
+                              This year’s Historical US Cabinet Crisis Committee takes us back 55 years and revolves around a heartstopping event that could only be described as a ‘near death experience’ of the world as we know it.
+                              The year is 1962. The potential catastrophe is a full blown nuclear war.
+                              The situation, as widely known, is the Cuban Missile Crisis.
+                              The committee will serve as the US Cabinet of 1962. Delegates will be put in the same precarious situation as the Cabinet members of 1962 had been in and will be asked to navigate the same strained dynamic between the US and the USSR in this epic historical tug-of-war.
+                        </p>
+                        <p>
+                              HUC will follow the standard procedure for PacificMUN’s crisis committees, meaning that the flow and outcome of the committee will be determined by either private or public directives.
+                              Given that HUC is an advanced committee, it will be characterized by fast-paced development and quality debate.
+                              Since the topic implies a highly challenging situation, delegates are expected to be well educated on the committee’s historical background and make well deliberated decisions.
+                              Thus, a position paper is mandatory.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Cuban Missile Crisis </h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    For thirteen days, the entire world sits and watches in tense silence from the spectator stand as the two political powerhouses of the planet engages in intense standoff in the international arena. On one side is the Soviet Union, the communist state with an enormous presence on the global political agenda and an intent to expand that presence further. On the opposition is the United States, the giant of world politics that emerged from the aftermath of World War II who has been long wary of USSR’s postwar expansionism behaviour. Taking place on a fragile international platform that is still recovering from the destructive ripples of World War II, the Cuban Missile Crisis marks the most perilous confrontation of the Cold War.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-offset-2 col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Linda Wu </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/lindaw.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Thrisha Mohan </h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/thrisham.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +103,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +112,57 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/lindaw.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Linda Wu </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Linda Wu is a freshman in the Faculty of Arts at the University of British Columbia. Throughout her high school career, Linda has experienced practically every aspect of MUN, from a delegate to a staff to a volunteer. She thought her MUN career had ended with her high school one but here she is again. Linda is excited and prepared to give her best in providing the committee of Historical US Cabinet a memorable and enriching experience. In the past, when she is not busy with school, Linda is usually out in the open, either jogging or exploring all the fun that Vancouver has to offer. In university, there is not a single moment when she is not busy with school.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/thrisham.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Thrisha Mohan</h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Thrisha is a junior at the International School Bellevue and one of the few staffers from the United States. She has done MUN since 8th grade and fell in love with the thrilling environment that conferences bring. Since then she has attended eight conferences and staffed two. Her main reason for becoming a PacificMUN staffer was in order to escape the US and take refuge in Canada. Her hobbies include listening to political podcasts that make her more depressed about the world, making powerpoints for new MUN delegates and watching terrible reality tv shows. She is excited to staff the United States Cabinet and is eager to watch delegates embody the executive body of the US.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

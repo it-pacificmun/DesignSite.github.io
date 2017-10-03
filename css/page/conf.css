@@ -1,17 +1,24 @@
 /* Main Styles */
 .main{
-      margin: 0;
       color:white;
-      height:100vh;
-      padding-top: 60px;
       background-color: #455A64;
 }
-.H100{ height:100vh; }
-.H50{ height:50vh; }
+.content{ padding: 150px 0px; }
 
-/* Layer 1 Styles */
-.L1h1, .L1h2{ font-family: 'Playfair Display', serif; }
-.L1h1{ font-size: 4em; padding:10px 0px; }
-.L1h2-{ font-size: 5em; }
-.L1learn, .L1learn:hover{color:white; font-size: 3em; transition: all 1s;}
-.L1learn:hover{transform: rotate(135deg);}
+/* Content1 Styles */
+.content1{ padding: 200px 0px; background-image: url("../../img/conf/confback.png"); }
+.C1h1{ font-family: 'Playfair Display', serif; font-size: 5em; }
+.C1h1a{ font-family: 'Playfair Display', serif; font-size: 7em; }
+.C1h2{ text-align: right; }
+
+/* Content2 Styles */
+.content2{ background-image: url("../../img/conf/conf2.jpg"); padding: 100px 0px; }
+.C2h1{
+      border-bottom: 3px solid white;
+      padding: 50px 0px;
+      background: linear-gradient(to bottom right, #2980b9, #455A64);
+}
+.C2row{ padding:25px 15px; }
+.C2pl, .C2pr{ text-transform: uppercase; }
+.C2pl{ float: right; }
+.C2pr{ float: left; }

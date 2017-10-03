@@ -43,7 +43,7 @@ figure.effect-goliath:hover p {
 
 /***** Apollo *****/
 figure.effect-apollo {
-	background: #3498db;
+	background: #2980b9;
 }
 figure.effect-apollo img {
 	opacity: 0.95;
@@ -98,8 +98,7 @@ figure.effect-apollo:hover p {
 
 /***** Moses *****/
 figure.effect-moses {
-	background: -webkit-linear-gradient(-45deg, #2980b9 0%,#455A64 100%);
-	background: linear-gradient(-45deg, #2980b9 0%,#455A64 100%);
+	background-color: #2980b9;
 }
 figure.effect-moses img {
 	opacity: 0.85;
@@ -210,7 +209,7 @@ figure.effect-jazz:hover p {
 
 /***** Ming *****/
 figure.effect-ming {
-	background: #455A64;
+	background: #2980b9;
 }
 figure.effect-ming img {
 	opacity: 0.9;
@@ -264,8 +263,8 @@ figure.effect-ming:hover img {
 
 /***** Duke *****/
 figure.effect-duke {
-	background: -webkit-linear-gradient(-45deg, #2980b9 0%,#455A64 100%);
-	background: linear-gradient(-45deg, #2980b9 0%,#455A64 100%);
+	background: -webkit-linear-gradient(-45deg, #2980b9 0%,#2980b9 50%);
+	background: linear-gradient(-45deg, #2980b9 0%,#2980b9 50%);
 }
 figure.effect-duke img,
 figure.effect-duke p {

@@ -5,7 +5,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <title>UNSC</title>
+      <title>UN SPACE</title>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
 
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
@@ -13,11 +15,83 @@
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain spaceback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> unspace@pacificmun.org</p>
+                        <h1 class="ch1"> UN SPACE COMMAND </h1>
+                        <p>
+                              UN Space Command is a special entity within United Nation currently set fifty years into the future in a world where technology and automation have become the main source of economic growth for most countries.
+                              As space research, exploration and resource exploitation became more and more relevant, the United Nations Office for Outer Space Affairs (UNOOSA) was disbanded in 2030, and United Nations Space Command was instated instead. While the goals of both committees are both to achieve “peace use of space,” UNOOSA did not engage with the more pressing issues such as direct conflict of interest and resource-exploitation race.
+                        </p>
+                        <p>
+                              Furthermore, due to the expansion of various countries’ space program, UN Space Command has delegated the power to restrict countries space programs if it deemed dangerous and harms the common interest of humanity.
+                              UN Space Command also receives funding from its member states for the maintenance upgrades of international space stations.
+                              As of 2068, there are five separate International Space Stations with the total capacity of 42 crew members combined.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Depletion of Critical Resources </h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    The year is 2068. Mechanization, industrialization, and technological development is proceeding at an unprecedented rate. However, the minerals required to keep up with the demand is on constant decline and the bit of earth’s deposit is just about to deplete. With the only limited technologies possible, the world must decide on how they can find new sources to fuel the demand.
+                              </p><br>
+                              <p class="TI">
+                                    The world’s development depends on the continuation of mechanization, which cannot happen without such critical resources. With earth’s economy at stake, countries must come together to address this solution.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Alan Chen </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/alanc.png">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Alice Zhang</h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/alicez.png">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff3">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Jonathan Liu </h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/jonathanl.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +112,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +121,79 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/alanc.png" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Alan Chen </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Under an invitation by a friend, Alan attended his first MUN conference in 2015, not knowing that MUN would soon become a big part of his high school life. Currently in Grade 12, Alan is interested in global politics, international economics, and social issues. He extends his passions not only to MUN but also to various debate tournaments, where he competes both locally and internationally. When not busy with school, Alan can be found reading the Economist, exploring different cafes in downtown, catching up on a certain type of airing TV series, and walking his Shiba-Inu on UBC campus. Alan is very excited for what PacificMUN 2018 encompasses and looks forward to meeting all the delegates in February.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/alicez.png" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Alice Zhang </h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Alice is a senior currently attending Fraser Heights Secondary and is honored to be serving as the chair of this year's UN Space Command. Ever since stepping into the world of MUN in her sophomore year - and being captivated by the activity ever since - she has fostered a passion for public speaking and global affairs. Outside of MUN, you can often find Alice poring over her science notes, volunteering for nonprofits, or wrapped up in a good book. During the little leisure time she has, Alice will either be playing the piano (she adores Chopin), perfecting her culinary repertoire, or trying to catch all 802 Pokémon. Alice looks forward to a weekend of productive debate and hopes that delegates will have a memorable experience at PacificMUN 2018!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff3" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/jonathanl.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Jonathan Liu </h1>
+                                    <p class="ssMp1"> Assistant Director </p>
+                                    <p class="ssMp TI">
+                                          Jonathan is a very enthusiastic student at Fraser Heights Secondary going into his 12th grade. Jonathan has been involved in Model UN ever since Grade 8, and from then on has fallen in love with the concept, and delegated at multiple conferences. In his time apart from MUN, Jonathan enjoys debating as well, and anything related to biology. In his free time, whenever he can find it, Jonathan also loves to hang out with his friends, read, watch anime, or play video games. PacificMUN will be Jonathan’s 4th staffing experience and very first hotel staffing experience. He is very excited, and honored to be Chairing at UN Space Command, and hopes to make the committee one of most enjoyable ones at PacificMUN.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

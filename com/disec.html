@@ -7,17 +7,120 @@
 
       <title>DISEC</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain disecback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> disec@pacificmun.org</p>
+                        <h1 class="ch1"> DISEC </h1>
+                        <p>
+                              In order to resolve the political tensions and myriad of security issues the Second World War accentuated, the Disarmament and International Security Committee held its first meeting on January 1946.
+                              With the cooperation of all 193 UN members, DISEC is currently at the forefront of ensuring international peace on issues ranging from small arms trade to nuclear proliferation, and on stages such as the Arctic Circle and the digital world of cyber security.
+                        </p>
+                        <p>
+                              As the First Committee of the General Assembly, Disarmament and International Security Committee (DISEC) handles “disarmament, global challenges and threats to peace that affect the international community and seeks out solutions to the challenges in the international security regime.
+                        </p>
+                        <p>
+                              Unfortunately, as DISEC cannot enforce any legally binding resolutions or direct interventions, it manages international security concerns through their support of collaborative arrangements, establishment of numerous peace treaties, global influence, and recommendations that widen the perspective of the UN.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Home grown Terrorism</h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    Terrorism has been a controversial topic long before the “War on Terror” was announced.
+                                    From the infamous twin towers to the chain of attacks that took place in Europe, terrorism is an issue that affects the international community both directly and indirectly.
+                                    It has become not only a political or a military problem, but a social one, with fear at rise and discriminatory regulations being passed.
+                              </p><br>
+                              <p class="TI">
+                                    While tragic deaths of a terror attack may leave emotional citizens looking for a foreign scapegoat, it’s important to recognize the unconventional truth: many of these terrorists are homegrown, terrorist sympathizers.
+                                    To deal with these new domestic terrorists, an one-dimensional travel ban will not suffice.
+                                    The international community needs to find a more specific, newly innovated solution.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Topic 2 -->
+            <div class="cTopic2">
+                  <div class="container">
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    Often times, a new, rising technology is seen as a beacon of technological revolution, a step forward.
+                                    However, we seldom realize that in the wrong hands, these scientific breakthroughs could easily be weaponized and used for destruction and chaos.
+                                    While the current regulations on numerous weapons are up to international standards, to a new technology like directed-energy weapons, the boundaries are still yet to be discovered and set.
+                              </p><br>
+                              <p class="TI">
+                                    To many nations, the capabilities of directed-energy weapons are unknown at best.
+                                    To even more nations, the thought of spending precious tax dollars on safeguarding directed-energy weapons is absurd.
+                                    However, for the safety of the international community, it’s imperative that we look into how to collaborate together to ensure DEW technology is in check.
+                              </p>
+                        </div>
+                        <div class="col-sm-6">
+                              <div class="TAR fullwidth">
+                                    <a class="cA CAP" href="#">Backgrounder</a>
+                                    <h1 class="ch2 TAR"> Directed Energy Weapons of the Future </h1>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Alex Han</h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/alexh.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Joseph Jang </h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/josephj.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff3">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Matthew Wang </h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../../img/staff/.png">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +141,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +150,96 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/alexh.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Alex Han </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Alex is a rising junior attending the IB Programme at Port Moody Secondary School.
+                                          After being introduced to model united nations in his early Grade 9 year, Alex was instantly captivated.
+                                          With a strong passion for debate and research, Alex is excited to serve as Director for the Disarmament and International Security Committee.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          Outside of his involvement in Model United Nations, Alex can be found reading the Economist, waiting for Spurs to win their well-deserving Premier League title, catching up on the latest fashion trends, debating through numerous tournaments, and digging for the ball on the volleyball court.
+                                          Alex is exhilarated to witness the intense debate and creative ideas brought forth by each delegate!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/josephj.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Joseph Jang </h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Joseph Jang is currently a grade 12 student attending Pacific Academy; he is very thrilled to be serving as the chair of DISEC.
+                                          Joseph started his MUN career very late, early in his grade 10 year and has been attempting to savour high school Model UN as much as possible.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          In his spare time, you can see him watching Brooklyn Nine-Nine, at the golf course hitting balls away or studying (not really).
+                                          Joseph looks forward to meeting all delegates; he very excited for this year's iteration of PacificMUN as it will be his very last MUN conference
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff3" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/.png" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Matthew Wang </h1>
+                                    <p class="ssMp1"> Assistant Chair </p>
+                                    <p class="ssMp TI">
+                                          Matthew Wang is a grade 12 student at Pacific Academy who is thrilled to serve as the Assistant Director of DISEC for PacificMUN 2018.
+                                          Caving into peer pressure, Matthew attended his first Model UN conference in grade 10 and fell in love with MUN’s flair to debate and ‘fruitful’ discussions that have since motivated him to participate in countless conferences.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          Matthew is not pulling all-nighters studying for the IB program, he enjoys spending his free time public speaking, programming, and making fun of US politics.
+                                          Matthew is a firm believer that innovative solutions can only be achieved through insightful leadership, which is why he encourages all students to participate in debate and Model UN to gain a greater understanding of world issues and foreign affairs.
+                                          So along with the rest of his fellow dais members, Matthew wishes all delegates a wonderful conference as he welcomes them to PacificMUN 2018.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

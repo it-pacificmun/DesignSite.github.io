@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <title>ECOFIN</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
 
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
@@ -13,11 +14,103 @@
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain ecofinback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> ecofin@pacificmun.org</p>
+                        <h1 class="ch1"> ECOFIN </h1>
+                        <p>
+                              As the Second Committee of the United Nations General Assembly, the Economic and Financial Committee, also known as ECOFIN, deals with international issues revolving around economic growth and development.
+                              Established in 1945, following the ratification of the United Nations Charter, ECOFIN’s primary purpose within the United Nations is to support global economic growth.
+                              Discussion within ECOFIN spans a variety of issues pertaining to global economic activity, and is not limited to topics that relate directly to macroeconomics, international trade, and the global financial system.
+                        </p>
+                        <p>
+                              ECOFIN dives into specific sectors of economic growth, with some examples being the changing energy market, corruption of multinational corporations, and the eradication of poverty.
+                              With few limitations and a spectrum of issues to be debated upon, ECOFIN will an unforgettable committee suitable for delegates of all experience levels.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Reliance on Fossil Fuels</h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    The global energy industry, which is essential for economic development in both developing and developed nations alike, is currently completely reliant on fossil fuels.
+                                    The costs of fossil fuels come from two areas: one is economic costs from extracting, purchasing, and transporting them to where they are needed,
+                                    the other is the damages it has on the environment, which costs the world trillions of dollars in damages.
+                              </p><br>
+                              <p class="TI">
+                                    As it becomes clear that fossil fuels are no longer economically or environmentally sustainable, ECOFIN must an alternative source of energy that is more suited towards sustainable development across the world.
+                                    Furthermore, efforts should be made to mitigate the effects of altering the energy industry, as nations with economies dependent around fossil fuels must be able to adapt to changing supply and demand.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Topic 2 -->
+            <div class="cTopic2">
+                  <div class="container">
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    The issue of corruption is becoming increasingly relevant in the world. Corporate corruption presents a setback to ECOFIN’s objectives of eradicating poverty to monitoring international commerce. Furthermore, international non-governmental organizations are also prone to corruption. Consequently, the corruption of multinational corporation is not only harmful to global economic development, but also damages the credibility of trade in the market. Such an issue calls for diplomacy and intuition as delegates navigate through a multi-faceted topic.
+                              </p>
+                        </div>
+                        <div class="col-sm-6">
+                              <div class="TAR fullwidth">
+                                    <a class="cA CAP" href="#">Backgrounder</a>
+                                    <h1 class="ch1 TAR"> Corruption of Multi National Corporations </h1>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Andrew Guo </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/andrewg.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Sarah Buddhason </h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/sarahb.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff3">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2>  Anna Cumming </h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/annac.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +131,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +140,103 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/andrewg.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Andrew Guo</h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          A grade 11 student at Fraser Heights Secondary, Andrew is honored to serve as the director of the Economic and Financial Committee at Pacific Model United Nations 2018.
+                                          After stepping into the world of Model United Nations 2 years ago, Andrew has never looked back, enjoying the experiences created out of every conference.
+                                          Andrew hopes to create a committee environment that is not only professional and friendly but also memorable and fun.
+                                          Unlike the many delegates in ECOFIN, Andrew is not very wise in economic policies, as he spends nearly all of his money on Tonkotsu ramen and black bean noodles.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          When not eating, Andrew is most likely creating and sharing school-appropriate photoshopped pictures of friends, stressing about school, or biking to the nearest sushi restaurant.
+                                          Andrew looks forward to not failing physics this semester and meeting all of the delegates in ECOFIN.
+                                          He is determined to make this a wonderful experience wishes and to share his love for Model UN towards all those who attend.
+                                          Feel free to reach out to him anytime if you have questions or concerns!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/sarahb.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Sarah Buddhason</h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Sarah is a junior at Moscrop Secondary School and is thrilled to serve as the Chair of the Economic and Financial Committee.
+                                          Having participated in Model UN over the span of two years, she has grown to love the intensity of debate and the cooperation needed to resolve pressing global issues.
+                                          When not cramming for an exam, you can often find her involved in numerous projects dedicated to promoting equity in STEM.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          Outside of MUN, she can be found playing her alto saxophone, buying overpriced coffee, clarifying what her ethnicity is, and starting new shows she’ll never finish.
+                                          Sarah is looking forward to a conference filled with lively debate, communication, and compromise, and is certain that PacificMUN 2018 will be a wonderful experience for all delegates!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff3" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/annac.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Anna Cumming </h1>
+                                    <p class="ssMp1"> Assistant Director </p>
+                                    <p class="ssMp TI">
+                                          Anna is extremely excited to be serving as ECOFIN’s Assistant Director for PacificMUN 2018.
+                                          She is currently in grade 11, studying at West Point Grey Academy.
+                                          This will be her fourth year of being involved in the model UN community, whether participating as a delegate or staff member.
+                                          Anna’s uplifting experiences as a delegate inspired her to apply for staffing positions at various conferences throughout Greater Vancouver.
+                                          Her goal is to make her delegates’ model UN experience as memorable as she knew her's to be.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          In Anna’s spare time, she enjoys exploring the outdoors with friends, playing tennis, and running.
+                                          She will strive to foster an educational, enlightening experience at PacificMUN 2018.
+                                          Anna wishes all delegates the best of luck on their research and looks forward to seeing you in February.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

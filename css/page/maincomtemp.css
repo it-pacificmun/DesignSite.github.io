@@ -1,49 +1,70 @@
-.main{height:100vh; background-color: #009688;}
+/* General Styles */
+.cMain{ color: white; }
+.ch1{ font-family: 'Playfair Display', serif; font-size: 8em; padding-bottom: 100px; }
+.ch2{ font-family: 'Playfair Display', serif; font-size: 6em; padding-bottom: 100px; }
+.cA, .cA:hover{ color: white; font-size: 20px; text-decoration: underline; }
+.cHero{ height: 100vh; background: linear-gradient(transparent, rgba(41, 128, 185, 0.9)); }
+.cTopic1, .cTopic2, .cStaff{ padding: 50px 10px; background-color: rgba(41, 128, 185, 0.9); }
+.cTblurb{ padding-top: 100px;}
 
-
-
-
-.cMain{
-      background-image: url("../../img/legal1.png"); background-position: center center; background-size: cover; background-repeat: no-repeat;
+/* Modal Styles */
+.C3Sspan{
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+}
+.C3Sspan>h2{ font-family: 'Playfair Display', serif; }
+.C3Ssdiv{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background:transparent;
+      color: transparent;
+      transition: all 1s;
+      margin: 0px 15px;
+}
+.C3Ssdiv1{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background:transparent;
+      color: transparent;
+      transition: all 1s;
+      margin: 0px 15px;
+}
+.C3Sa:hover .C3Ssdiv{
+      background:rgba(69, 90, 99, 0.7);
       color: white;
-      height:100vh;
+      border: 7px solid white;
 }
-.c1{padding: 90px 0px;}
-.c1h1{font-size: 5em;}
-
-.c2h4, .c2h4cd{
-      float:center;
-      color:#2980b9;
-      margin: 50px 0px;
-}
-.c2h4cd{background-color:white; padding:15px 50px;}
-.c2a{
-      transition: all 2s;
-      padding:15px 50px;
-      background-color:white;
-      border-left:5px solid #2980b9;
-}
-      .c2a:hover{
-      color:white;
-      border-color: white;
-      background-color: rgba(41, 128, 185, 0.8);
-
-}
-
-.c3{
-      background-image: url("../../img/legal1.png"); background-position: center center; background-size: cover; background-repeat: no-repeat;
+.C3Sa:hover .C3Ssdiv1{
+      background:rgba(255, 215, 0, 0.4);
       color: white;
-      height:100vh;
+      border: 7px solid #FFD700;
 }
-.c3img{
-      width:50%;
-      margin-top: 25%;
+.C3Ssp{
+      font-style: italic;
 }
-.c3col{
-      height:100%;
-      padding:0;
-}
-.c3col1{
-      height:100%;
-      background-color: #f6992b;
-}
+
+/* Background Images */
+.disecback{ background-image:url("../../img/com/disec.jpg"); }
+.ecofinback{ background-image:url("../../img/com/ecofin.jpg"); }
+.legalback{ background-image:url("../../img/com/legal.jpg"); }
+.alback{ background-image:url("../../img/com/arableague1.jpg"); }
+.iocback{ background-image:url("../../img/com/ioc1.jpg"); }
+.natoback{ background-image:url("../../img/com/nato.jpg"); }
+.ibcback{ background-image:url("../../img/com/ibc.jpg"); }
+.unwomenback{ background-image:url("../../img/com/unwomen.jpg"); }
+.unpfiiback{ background-image:url("../../img/com/unpfii.jpg"); }
+.husback{ background-image:url("../../img/com/huncabinet.jpg"); }
+.hunscback{ background-image:url("../../img/com/hunsc.jpg"); }
+.hjccback{ background-image:url("../../img/com/hjcc.jpg"); }
+.wfdback{ background-image:url("../../img/com/wfd.jpg"); }
+.spaceback{ background-image:url("../../img/com/space1.jpg"); }
+.ipcback{ background-image:url("../../img/com/ipc.jpg"); }

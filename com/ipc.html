@@ -7,17 +7,88 @@
 
       <title>IPC</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain ipcback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> @pacificmun.org</p>
+                        <h1 class="ch1"> IPC </h1>
+                        <p>
+                              The International Press Corps (IPC) is no ordinary committee for delegates. Instead of representing various nations like more conventional committees in the Model United Nations realm, IPC consists of delegates taking on the delegations of different news agencies from all around the world. They report on all the committees and their progress towards resolutions using written articles and video interviews. Each and every one of these publications and video creations must follow the tone, bias, and style of delegates’ respective news agencies.
+                        </p>
+                        <p>
+                              IPC seeks to solve the issue of committee isolation, an occurrence characterized by traditional delegates having little to no knowledge of the events in other committee rooms, by granting delegates access to a site where they can read and watch reports about each and every committee at PacificMUN. At this year’s conference, this committee will be a double delegation having to two delegates per delegations.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch2"> International Press Corps </h1>
+                        </div>
+                        <div class="col-sm-6">
+                              <p class="TI">
+                                    The International Press Corps (IPC) is no ordinary committee for delegates. Instead of representing various nations like more conventional committees in the Model United Nations realm, IPC consists of delegates taking on the delegations of different news agencies from all around the world. They report on all the committees and their progress towards resolutions using written articles and video interviews.
+                              </p><br>
+                              <p class="TI">
+                                    Each and every one of these publications and video creations must follow the tone, bias, and style of delegates’ respective news agencies. IPC seeks to solve the issue of committee isolation, an occurrence characterized by traditional delegates having little to no knowledge of the events in other committee rooms, by granting delegates access to a site where they can read and watch reports about each and every committee at PacificMUN. At this year’s conference, this committee will be a double delegation having to two delegates per delegations.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Kevin Zhu </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/kevinzhu.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2>  Andy Jiang </h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/andyj.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff3">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2>  Enya Ho </h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/enyah.png">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +109,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +118,88 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/kevinzhu.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Kevin Zhu </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Kevin Zhu is a Grade 12 student attending Semiahmoo Secondary, struggling through his final year of the IB Programme. Kevin first became involved with Model UN when his friends encouraged him to attend PacificMUN 2014. It was at this time when Kevin finally discovered that Model UN gave him a forum for arguing with other people his age.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          When he isn't denying the existence of his tests, playing the recorder, rewatching episodes of The Office, sitting on the floor contemplating life or trying to figure out the art of photography, you can occasionally find Kevin browsing various items online that are way out of his price range. Kevin is truly ecstatic to be serving as one of the Directors for the International Press Corps and strives to make it as educational and exciting as possible for all parties involved.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/andyj.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Andy Jiang </h1>
+                                    <p class="ssMp1"> Assistant Director</p>
+                                    <p class="ssMp TI">
+                                          Currently a junior student attending Fraser Heights Secondary, Andy Jiang is humbled to direct the best committee at PacificMUN opposite the lovely Kevin Zhu. For Andy, the journey of MUN has been an elevator that only goes up. Since his very first conference, the aroma of placards, note papers, and complimentary hotel pens have completely seduced his time and interest. However, what he loves more than anything else is the supportive community of diverse individuals, who continuously encouraged him on this journey.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          Throughout the span of over 15 conferences, Andy has made friendships he will treasure for life, something invaluable that he hopes for all the delegates attending IPC. Aside from his commitment to MUN, Andy can be found hyping up for the season 8 of Game of Thrones or attempting to top his own high score in the Google Chrome dinosaur game. Whether you are a beginner or veteran delegate, Andy cannot wait to greet everyone at PacificMUN and promises to provide an experience to be savoured.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff3" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/enyah.png" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Enya Ho </h1>
+                                    <p class="ssMp1"> Assistant Director</p>
+                                    <p class="ssMp TI">
+                                          Enya is a senior at Little Flower Academy and is absolutely thrilled to be your chair for this year's International Press Corps.  She fell in love with Model United Nations four years ago and has thoroughly enjoyed both staffing and delegating ever since.  Model UN has offered her countless opportunities, brought her amazing friends, and opened her eyes to the world - continuing to give her new perspectives on everyday events.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          Outside of MUN, Enya is an avid participant in her school yearbook, and she serves as a board member of Charity Brighouse.  She loves 'the arts', especially anything to do with reading, writing, or talking (something she does a lot of).  Other than being studying, managing her leadership in several school clubs (Co-Editor In Chief is a very exhausting, but worthwhile, position), and trying to get out of Bronze in League of Legends, Enya is a photographer, poet, writer, and editor.  She loves learning new things and is a master at binge-watching anime and Netflix.  Enya prides herself on being a professional tryhard and hopes to utilize that ability in creating an unforgettable conference for her delegates.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

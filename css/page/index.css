@@ -1,12 +1,12 @@
 /* General Styles */
-.main{ background-image:url("../../img/backindex.png"); color: white; }
+.main{ background-image:url("../../img/index/backindex.png"); color: white; }
 
 /* Hero Styles */
 .hero{
-      background-image:url("../../img/Hbackindex.png");
+      background-image:url("../../img/index/Hbackindex.png");
       height:100vh;
 }
-.hero-h1{ font-size:8em; font-family: 'Playfair Display', serif; }
+.hero-h1{ text-align: left; font-size: 6em; }
 .hero-a{
       color: white;
       transition: all 1s;
@@ -30,20 +30,20 @@
 }
 
 /* Content 1 + 2 Shared Styles */
-.content1, .content2{ height:100vh; padding:100px 50px; }
+.content1, .content2{ padding:100px 50px; }
 .C1h1, .C2h1{ padding-left:10px; padding-right: 10px; }
 
 /* Content1 Styles */
-.content1{ background-image:url("../../img/c1index.png"); }
+.content1{ background-image:url("../../img/index/c1index1.png"); }
 .C1h1{ border-left: 5px solid white; }
 
 /* Content 2 Styles */
-.content2{ background-image:url("../../img/c2index.png"); }
+.content2{ background-image:url("../../img/index/c2index1.png"); }
 .C2h1{ text-align: right; border-right: 5px solid white; }
 
 /* Content2B Styles */
 .content2B{
-      background-image: url("../../img/c2bindex.png");
+      background-image: url("../../img/index/c2bindex.png");
       padding: 150px 50px;
 }
 .C2Bsign{ width:300px; }
@@ -59,4 +59,3 @@
 
 /* Content 4 Styles */
 .content4{ margin:0; padding:150px 0px; background-color: rgba(41, 128, 185, 0.82); }
-.C4a, .C4a:hover{ color:white; text-decoration: underline; }

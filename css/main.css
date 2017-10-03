@@ -15,6 +15,7 @@
 .OpenSans{ font-family: 'Open Sans', sans-serif; }
 .Roboto{ font-family: 'Roboto', sans-serif; }
 .Ruthie{ font-family: 'Ruthie', cursive; }
+
 /* Universal Css Sheet */
 *{
 	border-radius: 0 !important;
@@ -43,6 +44,7 @@ p{ font-size:16px; }
 .width80{ width:80%; }
 .width50{ width:50%; }
 .fullheight{ height:100%; }
+.NPcol{ padding:0; }
 
 /* Alignment */
 .TAL{ text-align: left; }
@@ -50,11 +52,15 @@ p{ font-size:16px; }
 .TAR{ text-align: right; }
 .TAS{ text-align: center; }
 .TNS{ padding-top: 60px; }
+.FLOATL{ float: left; }
+.FLOATR{ float: right; }
+
+.emaila, .emaila:hover{ color:white; text-decoration: underline; }
 
 /* Text */
 .TI{ text-indent: 25px; }
+.PI{ padding-left: 25px; }
 .CAP{ text-transform: uppercase; }
-
 
 /* Nav */
 @media screen and (max-width: 750px) {

@@ -7,17 +7,85 @@
 
       <title>NATO</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero natoback TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> nato@pacificmun.org</p>
+                        <h1 class="ch1"> NATO </h1>
+                        <p>
+                              Born out of the military tension between the Soviet Union and the United States during the Cold War, the North Atlantic Treaty Organization (NATO), an intergovernmental military alliance, was formed. The alliance between the democratic nations from Europe and North America had the primary objective to deter the Communist expansion and ensure mutual defence.
+                              NATO granted collective security to all its members as a way to strengthen itself against the communist Warsaw Pact.
+                              While the Warsaw Pact no longer exists in the modern era, NATO continues with its goals to achieve security and peace.
+                              Now, with 29 member states, NATO’s role extends beyond establishing collective security; it is actively involved in a broad range of peacekeeping operations.
+                              These range from countering international threats to providing humanitarian assistance in post-conflict zones.
+                        </p>
+                        <p>
+                              Unlike other intergovernmental bodies, NATO has the ability to enforce resolutions and decisions rather than just propose ideas.
+                              All operations of NATO require the unanimous consent from their Member-States.
+                              As the most powerful military organization in the world, NATO wields enormous political influence and is vital in maintaining peace and security across the globe.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Rising Militarism of North Korea </h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    When the Soviet Union collapsed, the communist nation of North Korea was left to defend itself from the largest global superpower, the United States. This led to the Kim Dynasty's belief that improving their military was their only source of security. Therefore, the nation started to develop their own nuclear capabilities. After witnessing the US invade Iraq due to their alleged nuclear arms and eliminate Libya’s nuclear program, Kim Jong-Il’s government relentlessly continued to test and develop their nuclear arms.
+                              </p><br>
+                              <p class="TI">
+                                    North Korea’s successful production of short and medium-range missiles forces Japan and South Korea to live with the constant threat of a possible nuclear attack. However, their collective security agreement with the US, who possesses nuclear weapons capable of striking North Korea, locked the nations in a temporary stalemate. While economic sanctions and rejection from the United Nations have weakened North Korea’s economy and standard of living, their pursuit for military supremacy remains unshaken. Their survival is mainly backed by China who is their main trading partner and ally. North Korea’s successful development of an ICBM (Intercontinental Ballistic Missile), meant that the US must re-evaluate their current commitments to defending their allies Japan and Korea. With North Korea theoretically capable of striking all of Asia, most of Europe, and North America, the members of NATO must develop a strategy to curb the rising militarism of North Korea.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-offset-2 col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Geneviève Dubuc </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/gened.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Sherry Sun </h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/sherrys.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +106,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +115,60 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/gened.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Geneviève Dubuc </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Geneviève Dubuc is currently a senior attending École Secondaire Jules-Verne and she is delighted to serve as the Chair of the Joint Crisis Committee at Pacific Model United Nations 2018. Passionate about international affairs, MUN piqued her curiosity and she attended her first conference at the beginning of eleventh grade. Conference after conference, she only delved deeper into the world of debate and has not turned back since. When she is not in school, sleeping, or doing both simultaneously, you can find Geneviève being an avid dogspotter, sobbing while watching Korean dramas or seeking new eateries to feed her insatiable sweet tooth. Geneviève looks forward to a weekend of fervent debate and she is excited to meet you all at Pacific Model United Nations 2018.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/sherrys.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Sherry Sun </h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Sherry is currently a Grade 11 student attending Richmond Christian School. Having been introduced to this platform for communication and collaboration since Grade 9, she has thoroughly enjoyed every conference as both a delegate and staff. Having developed a growing passion for current events and international relations, she is dedicated to making a positive change in the world. In addition to Model UN and academic studies, Sherry enjoys working for nonprofit organizations, performing with her orchestra, and baking macarons in her free time.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          Whether you are a beginner delegate or an experienced MUN veteran, she hopes that PacificMUN 2018 will be both a transforming and inspiring experience as the previous iteration had been for her. Although Sherry cannot guarantee an unquestionable knowledge of the rules of procedure, she looks forward to serving as your Chair for NATO and is excited to witness an intense weekend full of diplomacy and professionalism at PacificMUN 2018!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

@@ -7,17 +7,79 @@
 
       <title>H:UNSC</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain hunscback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> @pacificmun.org</p>
+                        <h1 class="ch1"> H UNSC </h1>
+                        <p>
+                              After the establishment of the United Nations and the summation of World War II in the mid-1900s, the United Nations had had their share of conflicts and war to last a lifetime. This all changed with the Cuban Missile Crisis, a critical situation that brought two superpowers together in an intense campaign for power. Indeed, the world had never been closer to ending than with this threat of a nuclear war.
+                        </p>
+                        <p>
+                              The year is 1962 and the Soviet Union has allied with Cuba after a failed attempt by the United Nations to overthrow the Cuban communist government. Through a secret shipment, the Soviet Union deployed nuclear missiles to the island nation for the purpose of providing protection as well as counteracting the US missiles located in Italy and Turkey. With the United Nations Security Council currently under immense pressure to resolve the crisis, it is important to remember that the leaders of each nation also have their own concerns individual security.
+                        </p>
+                        <p>
+                              In this historical committee, delegates will relive the thirteen strenuous and intense days of the Cuban Missile Crisis and attempt to solve a conflict between the two superpowers of that turbulent time period.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Cuban Missile Crisis </h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    The Cuban Missile Crisis is an intense stand-off between two superpowers: the United States and the United Soviet Socialist Republics (USSR). Beginning with Cuban President Fidel Castro’s rise to power, the situation quickly escalated when the US attempted to interfere by initiating an operation to overthrow Castro. After the failure of the operation, Cuba turned to the USSR for help, who in turn secretly transported nuclear missiles to the island. Upon the discovery of these weapons of mass destruction, the Americans’ first priority now is to ensure the security of the country. With both sides waiting for the other to make the first move, the stakes are high and mutual destruction appears to be inevitable.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-offset-2 col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Irene Zhang </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/irenez.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Michael Levenkov </h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/michaell.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +100,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +109,60 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/irenez.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Irene Zhang </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Currently in her junior year at Fraser Heights Secondary School, Irene is honored to be serving as the Director for Historical UNSC at PacificMUN 2018. Ever since attending her first Model UN conference in Grade 8, she has never been able to escape the intriguing world of Model UN. Time and time again, the thrill of a good debate and intensity of a proper roast drew her back to more unforgettable conferences, and she hopes that delegates will be able to experience the same passion that she has for Model UN.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          In her free time, Irene enjoys drawing at ungodly hours, going for a quick jog, and contemplating post-secondary decisions. She is also an avid fan of anime, often suffering heated internal debates over a bit more sleep or another episode. Attending numerous Model UN conferences in the past has taught her essential skills in public speaking, diplomacy, and cooperation, and she hopes that this conference will do the same for all of you. Regardless of whether you are a beginner or a veteran, Irene hopes that PacificMUN 2018 will be a truly memorable experience and looks forward to meeting all the delegates in Historical UNSC!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/michaell.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Michael Levenkov </h1>
+                                    <p class="ssMp1">  Chair </p>
+                                    <p class="ssMp TI">
+                                          Hailing from Seattle, WA, Michael Levenkov is a senior at Nikola Tesla STEM High School, where he serves as the President of the MUN club. Michael has been involved in MUN since his sophomore year when he attended one club meeting by chance and instantly fell in love. Since then, he has attended nearly a dozen conferences on the Washington and BC circuits as a delegate, staff member, and secretariat member. When he’s not busy procrastinating on school work, Michael competes in ballroom dance competitions and plays League of Legends (poorly). Michael is supremely excited to be staffing his first Canadian conference and can’t wait to serve as the Chair for the Historic UNSC.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

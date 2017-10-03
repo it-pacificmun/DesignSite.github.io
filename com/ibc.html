@@ -7,17 +7,119 @@
 
       <title>IBC</title>
 
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+
       <!-- External Stylesheets -->
       <link rel="stylesheet" href="../css/bootstrap.min.css"/>
       <link rel="stylesheet" href="../css/font-awesome.min.css"/>
       <!-- Internal Main Stylesheets -->
       <link rel="stylesheet" href="../css/main.css"/>
       <link rel="stylesheet" href="../css/nav.css"/>
+      <link rel="stylesheet" href="../css/modal.css"/>
       <!-- Specific Stylesheets -->
       <link rel="stylesheet" href="../css/page/maincomtemp.css"/>
 </head>
 <body>
-      <div class="main"></div>
+
+      <!-- Main Content -->
+      <div class="cMain ibcback BGP">
+
+            <!-- Committee Intro -->
+            <div class="cHero TAS">
+                  <div class="ABM container">
+                        <p class="ITC CAP"> ibc@pacificmun.org</p>
+                        <h1 class="ch1"> IBC </h1>
+                        <p>
+                              The International Bioethics Committee was formed in 1993 by the general director of UNESCO, Dr Federico Mayor Zaragoza.
+                              Experts from multiple fields are gathered to discuss and promote the legal issues involved in the application of life sciences.
+                              IBC’s task is to acknowledge the effects of the exploration and utilization of newly developed techniques, focusing on the ethics of such experiments and trials.
+                        </p>
+                        <p>
+                              As a committee, we will explore the moral principles behind medical and biological research as well as the use and evolution of stem cell research.
+                              Additionally, IBC embodies the promotion of issues that may arise from biological research while setting standards in its exploration and utilization.
+                              The importance in the tasks at hand is substantial as IBC is made to ensure the safety and freedom of humans as research advances.
+                              Bioethics is particularly important as scientific practices have grown considerably, reaching beyond many borders.
+                              It is critical to arrange regulations to prevent unethical experimentation.
+                        </p>
+                        <p>
+                              At Pacific Model United Nations, IBC will be modified so delegates will take on the roles of countries.
+                              IBC is intended for delegates with some experience in Model UN. However, anyone with sincere interest is welcome to join the committee.
+                        </p>
+                  </div>
+            </div>
+
+            <!-- Topic 1 -->
+            <div class="cTopic1">
+                  <div class="container">
+                        <div class="col-sm-6">
+                              <a class="cA CAP" href="#">Backgrounder</a>
+                              <h1 class="ch1"> Research Ethics </h1>
+                        </div>
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    As the field of life sciences gains popularity with a rapid increase in development and technology, guidelines are needed to insure the security of human rights.
+                                    While the research and development has extended overseas, it is necessary to establish a universal system to maintain basic integrity.
+                                    IBC must tackle issues around different independent corporations and governmental agencies and their exploitation of freedom and rights.
+                                    The exploration in biomedical science is essential to the development of the human species, however, there must be strict rules in place to eliminate studies that breach basic research ethics.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Topic 2 -->
+            <div class="cTopic2">
+                  <div class="container">
+                        <div class="cTblurb col-sm-6">
+                              <p class="TI">
+                                    Human Augmentation has been a major development in the biological science field as it is widely considered a revolutionary new form of technology that can push humanity to a new level.
+                                    Although research into it has been a breakthrough in life science, many concerns surface as well.
+                                    While human augmentation research is advancing every day, it is important to understand both the pros and cons to fully comprehend the reason some people are in an uneasy state.
+                                    Despite all the study on human augmentation, it is concerning to how the host's body may face damages in the process.
+                                    All views of this topic must be touched upon as human augmentation can be extremely controversial.
+                              </p>
+                        </div>
+                        <div class="col-sm-6">
+                              <div class="TAR fullwidth">
+                                    <a class="cA CAP" href="#">Backgrounder</a>
+                                    <h1 class="ch1 TAR"> Human Augmentation</h1>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- Staff -->
+            <div class="cStaff">
+                  <div class="container">
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff1">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Angela Kang </h2>
+                                          <p class="C3Ssp"> Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/angelak.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff2">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Nick Young </h2>
+                                          <p class="C3Ssp"> Chair </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/nicky.jpg">
+                              </a>
+                        </div>
+                        <div class="col-sm-4 C3Sdiv">
+                              <a class="C3Sa" data-toggle="modal" href="#staff3">
+                                    <div class="C3Ssdiv"><span class="C3Sspan">
+                                          <h2> Harrison Chan </h2>
+                                          <p class="C3Ssp"> Assistant Director </p>
+                                    </span></div>
+                                    <img class="fullwidth" src="../img/staff/harc.jpg">
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Footer -->
       <div class="footer">
@@ -38,7 +140,7 @@
       </ul>
       <div id="navModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
+                  <div class="modal-content navMcontent">
                         <div class="modal-body navMbody">
                               <a class="navMa" href="../index.html">PacificMUN 2018</a><br>
                               <a class="navMa" href="../aboutus.html">About Us</a><br>
@@ -47,13 +149,96 @@
                               <a class="navMa" href="../registration.html">Registration</a><br>
                               <a class="navMa" href="https://www.facebook.com/PacificModelUN/">Facebook Page</a><br>
                         </div>
-                        <div class="modal-exit">
-                              <button type="button" data-dismiss="modal" class="navMbtn"><p class="navMexit">&#10006;</p></button>
-                        </div>
+                        <div class="modal-exit"><button type="button" data-dismiss="modal" class="navMbtn"><p class="exitMp">&#10006;</p></button></div>
                   </div>
             </div>
       </div>
       <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Take Me Up!" data-toggle="tooltip" data-placement="left"><i class="fa fa-anchor"></i></a>
+
+            <!-- Staff -->
+      <div id="staff1" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/angelak.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Angela Kang </h1>
+                                    <p class="ssMp1"> Director </p>
+                                    <p class="ssMp TI">
+                                          Angela Kang is currently in Grade 12, attending Fraser Heights Secondary and is hyped to be serving as your director at PacificMUN 2018.
+                                          Angela began her MUN journey in her grade 10 year and has loved it ever since.
+                                          Outside of MUN, you can usually find her volunteering, wasting her money on food, or trying to find the motivation to go to the gym.
+                                          Angela wishes all delegates of PacificMUN 2018 the best of luck and is looking forward to the unforgettable experience with everyone!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff2" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff3" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/nicky.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Nick Young </h1>
+                                    <p class="ssMp1"> Chair </p>
+                                    <p class="ssMp TI">
+                                          Entering eleventh grade at St. George’s school, Nick Young is ecstatic to serve as Chair of the International Bioethics Committee for PACIFICMUN 2018.
+                                          Nick has doing Model UN for 2 years after stumbling into the club, and he’s proud to say he has learned a great deal about international relations and public speaking since his first delegation as Lebanon in WHO.
+                                          After enjoying the debate and deliberation of the simulation for multiple conferences, he is ecstatic to share the same enriching experience with his delegates as Chair.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          When not slaving over schoolwork or studying, Nick is committed to several charities, the student council, and several Model UN conferences.
+                                          His interests vary from playing badminton, practicing piano, and reading books to browsing Facebook, doing things ironically, and searching for the freshest memes.
+                                          He hopes all delegates have a phenomenal time at PACMUN 2018, and encourages them to contact him if they have any questions or concerns. Good luck at the conference!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div id="staff3" class="modal ssM fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                  <div class="modal-content ssMcontent">
+                        <div class="modal-exit ssR"><button type="button" data-toggle="modal" href="#staff2" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-left ssMbtnp"></i></button></div>
+                        <div class="modal-exit ssL"><button type="button" data-toggle="modal" href="#staff1" data-dismiss="modal" class="ssMbtn1"><i class="fa fa-angle-right ssMbtnp"></i></button></div>
+                        <div class="modal-body ssMbody row">
+                              <div class="col-sm-6">
+                                    <img class="ssMimg" src="../img/staff/harc.jpg" alt="sspic">
+                              </div>
+                              <div class="col-sm-6">
+                                    <div class="modal-exit"><button type="button" data-dismiss="modal" class="ssMbtn"><p class="exitMp">&#10006;</p></button></div>
+                                    <br>
+                                    <h1 class="ssMh1"> Harrison Chan </h1>
+                                    <p class="ssMp1"> Assistant Director </p>
+                                    <p class="ssMp TI">
+                                          Harrison Chan is a senior at Vancouver College.
+                                          Having seriously been involved in Model United Nations since the beginning of 9th grade after dabbling with it in grade 8, he has rapidly fallen into the trap known as the MUN scene.
+                                          PacificMUN is Harrison's 16th Model UN conference and he is remarkably ecstatic to be serving as the Assistant Director for PacificMUN 2018's International Bioethics Committee.
+                                    </p><br>
+                                    <p class="ssMp TI">
+                                          When not involved in Model UN, he can be found sleeping in class, looking at memes, taking dank photos (@pilotharrison on the IG + SC), designing websites and apps,
+                                          solving calculus problems for fun, working with his nonprofits, eating at upscale restaurants, and basically doing literally everything short of doing schoolwork.
+                                          Harrison wishes delegates the best of luck and is looking forward to meeting everyone at PacificMUN 2018!
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
       <!-- Javascript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
